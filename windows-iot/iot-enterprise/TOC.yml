@@ -1,0 +1,31 @@
+- name: Getting Started with Windows 10 IoT Enterprise
+  href: Getting_Started.md
+- name: Hardware Requirements
+  href: Hardware_Requirements.md
+- name: Technical Breakdown 
+  href: Technical_Breakdown.md
+- name: Advanced Lockdown Features
+  href: Advanced_Lockdown_Features.md
+- name: Branding
+  href: Branding.md
+- name: Licensing
+  href: Licensing.md
+- name: Tutorials
+  expanded: false 
+  items: 
+  - name: Manufacturing Guide 
+    href: https://docs.microsoft.com/windows-hardware/manufacture/desktop/iot-ent-overview
+  - name: 2 Minute Kiosk 
+    href: 2_Minute_Kiosk.md
+- name: Licensing
+  href: Licensing.md
+- name: Best Practices
+  href: Best_Practices.md
+- name: Frequently Asked Questions
+  href: FAQ.md
+- name: Release Notes
+  href: Release_Notes.md
+- name: Accessibility
+  href: Accessibility.md
+- name: Glossary
+  href: Glossary.md
