@@ -1,5 +1,7 @@
 ---
 title: Frequently Asked Questions - CE Migration
+author: rsameser
+ms.author: riameser
 ms.date: 09/25/2020
 ms.topic: article
 ms.prod: windows-iot

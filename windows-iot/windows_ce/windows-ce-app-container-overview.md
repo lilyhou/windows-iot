@@ -1,5 +1,7 @@
 ---
 title: Overview of Windows CE App Container
+author: rsameser
+ms.author: riameser
 ms.date: 08/12/2020
 ms.topic: article
 ms.prod: windows-iot
