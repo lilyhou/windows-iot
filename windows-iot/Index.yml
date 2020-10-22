@@ -86,17 +86,17 @@ conceptualContent:
 
     - title: Windows CE Migration
       links:
-        - url: https://docs.microsoft.com/en-us/windows/iot-core/windows-ce-migration-faq
+        - url: ./windows_ce/windows-ce-migration-faq.md
           itemType: overview
           text:  Windows CE Migration FAQ
-        - url: https://docs.microsoft.com/en-us/windows/iot-core/windows-ce-app-container
+        - url: ./windows_ce/windows-ce-app-container-overview.md
           itemType: overview
           text:  Windows CE App Container
-        - url: https://docs.microsoft.com/en-us/windows/iot-core/windows-ce-app-container-getting-started
+        - url: ./windows_ce/windows-ce-app-container-getting-started.md
           itemType: how-to-guide
           text:  Getting Started with Windows CE App Container
       footerLink:
-        url: https://docs.microsoft.com/en-us/windows/iot-core/windows-ce-migration-faq
+        url: ./windows_ce/windows-ce-app-container-overview.md
         text: See more
 
     - title: Windows Server IoT 2019
