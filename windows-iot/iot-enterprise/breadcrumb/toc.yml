@@ -1,0 +1,11 @@
+- name: Docs
+  tocHref: /
+  topicHref: /
+  items:
+  - name: Windows
+    tocHref: /windows/
+    topicHref: /windows/
+    items:
+      - name: Windows 10 IoT Enterprise Documentation 
+        tocHref: /windows/iot-enterprise/
+        topicHref: "/windows/iot-enterprise/index"  
