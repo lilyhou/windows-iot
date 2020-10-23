@@ -8,4 +8,15 @@
     items:
     - name: Windows IoT
       tocHref: /windows/window-iot/
-      topicHref: /windows/windows-iot/index
+      topicHref: /windows/windows-iot/index/
+      items:
+      - name: Windows IoT Enterprise
+        tocHref: /windows/window-iot/iot-enterprise/
+        topicHref: /windows/window-iot/iot-enterprise/
+        items: 
+        - name: Branding
+          tocHref: /windows/window-iot/iot-enterprise/branding
+          topicHref: /windows/window-iot/iot-enterprise/branding
+      - name: Windows CE
+        tocHref: /windows/window-iot/windows_ce/
+        topicHref: /windows/window-iot/windows_ce/
