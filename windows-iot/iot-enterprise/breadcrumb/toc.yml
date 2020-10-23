@@ -6,6 +6,10 @@
     tocHref: /windows/
     topicHref: /windows/
     items:
+    - name: Windows IoT Documentation
+      tocHref: /windows-iot/
+      topicHref: /windows-iot/index
+      items:
       - name: Windows 10 IoT Enterprise Documentation 
         tocHref: /windows/iot-enterprise/
         topicHref: "/windows/iot-enterprise/index"  
