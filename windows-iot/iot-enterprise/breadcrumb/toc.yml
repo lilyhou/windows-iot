@@ -1,15 +1,19 @@
 - name: Docs
   tocHref: /
-  topicHref: /
+  topicHref: /https://docs.microsoft.com/en-us/
   items:
   - name: Windows
     tocHref: /windows/
-    topicHref: /windows/
+    topicHref: /https://docs.microsoft.com/en-us/windows/
     items:
     - name: Windows IoT Documentation
       tocHref: /windows-iot/
       topicHref: /windows-iot/index
       items:
       - name: Windows 10 IoT Enterprise Documentation 
-        tocHref: /windows/iot-enterprise/
-        topicHref: "/windows/iot-enterprise/index"  
+        tocHref: /windows-iot/iot-enterprise/
+        topicHref: "/windows-iot/iot-enterprise/"  
+        items:
+        - name: Getting Started with Windows 10 IoT Enterprise
+          tocHref: /windows-iot/iot-enterprise/Getting/
+          topicHref: /windows-iot/iot-enterprise/getting-started-with-windows-10-iot-enterprise/
