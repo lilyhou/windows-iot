@@ -2,8 +2,29 @@
   href: Getting_Started.md
 - name: Hardware Requirements
   href: Hardware_Requirements.md
-- name: Technical Breakdown 
-  href: Technical_Breakdown.md
+- name: OS Features
+  expanded: false 
+  items:
+  - name: Accessibility & Privacy
+    href: OSFeatures/Accessibility_Privacy.md
+  - name: Cloud Connectivity
+    href: OSFeatures/Cloud_Connectivity.md
+  - name: Deployment Framework
+    href: OSFeatures/Deployment_Framework.md
+  - name: Device Drivers
+    href: OSFeatures/Device_Drivers.md
+  - name: Device Management
+    href: OSFeatures/Device_Management.md
+  - name: Networking
+    href: OSFeatures/Networking.md
+  - name: OEM Customization
+    href: OSFeatures/OEM_Customization.md
+  - name: Security
+    href: OSFeatures/Security.md
+  - name: Updates
+    href: OSFeatures/Updates.md
+  - name: Windows Analytics
+    href: OSFeatures/Windows_Analytics.md
 - name: Advanced Lockdown Features
   href: Advanced_Lockdown_Features.md
 - name: Branding
