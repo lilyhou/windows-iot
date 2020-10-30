@@ -2,35 +2,70 @@
   href: Getting_Started.md
 - name: Hardware Requirements
   href: Hardware_Requirements.md
-- name: OS Features
+- name: Native OS Features
   expanded: false 
   items:
   - name: Accessibility & Privacy
-    href: OSFeatures/Accessibility_Privacy.md
+    href: OS-Features/Accessibility-Privacy.md
   - name: Cloud Connectivity
-    href: OSFeatures/Cloud_Connectivity.md
+    href: OS-Features/Cloud-Connectivity.md
   - name: Deployment Framework
-    href: OSFeatures/Deployment_Framework.md
+    href: OS-Features/Deployment-Framework.md
   - name: Device Drivers
-    href: OSFeatures/Device_Drivers.md
+    href: OS-Features/Device-Drivers.md
   - name: Device Management
-    href: OSFeatures/Device_Management.md
+    href: OS-Features/Device-Management.md
   - name: Networking
-    href: OSFeatures/Networking.md
+    href: OS-Features/Networking.md
   - name: OEM Customization
-    href: OSFeatures/OEM_Customization.md
+    href: OS-Features/OEM-Customization.md
   - name: Security
-    href: OSFeatures/Security.md
+    href: OS-Features/Security.md
   - name: Updates
-    href: OSFeatures/Updates.md
+    href: OS-Features/Updates.md
   - name: Windows Analytics
-    href: OSFeatures/Windows_Analytics.md
+    href: OS-Features/Windows-Analytics.md
+- name: Kiosk Mode
+  expanded: false 
+  items: 
+  - name: Single-App Kiosk
+    href: Kiosk-Mode/Single-App-Kiosk.md
+  - name: Multi-App Kiosk
+    href: Kiosk-Mode/Multi-App-Kiosk.md 
 - name: Advanced Lockdown Features
-  href: Advanced_Lockdown_Features.md
-- name: Branding
-  href: Branding.md
-- name: Licensing
-  href: Licensing.md
+  expanded: false 
+  items: 
+  - name: Windows Defender Application Control (WDAC) and AppLocker
+    href: Advanced-Lockdown-Features/WDAC-AppLocker.md
+  - name: Edge Swipe Policy
+    href: Advanced-Lockdown-Features/Edge-Swipe-Policy.md
+  - name: Filtering and Controlling (USB Access) 
+    href: Advanced-Lockdown-Features/Filtering-Controlling.md
+  - name: Keyboard Filter
+    href: Advanced-Lockdown-Features/Keyboard-Filter.md
+  - name: Shell Launcher
+    href: Advanced-Lockdown-Features/Shell-Launcher.md
+  - name: Unified Write Filter
+    href: Advanced-Lockdown-Features/Unified-Write-Filter.md
+  - name: Hibernate Once/Resume Many (HORM)
+    href: Advanced-Lockdown-Features/HORM.md
+- name: Branding Features
+  expanded: false 
+  items: 
+  - name: Custom Logon
+    href: Branding-Features/Custom-Logon.md
+  - name: Microsoft Store Access
+    href: Branding-Features/Microsoft-Store-Access.md
+  - name: Secondary Microsoft Edge Tiles
+    href: Branding-Features/Edge-Tiles.md
+  - name: Page Visibility   
+    href: Branding-Features/Page-Visibility.md
+  - name: Layout Control
+    href: Branding-Features/Layout-Control.md
+  - name: Unbranded Boot
+    href: Branding-Features/Unbranded-Boot.md
+  - name: Update Notification
+    href: Branding-Features/Update-Notification.md
 - name: Tutorials
   expanded: false 
   items: 

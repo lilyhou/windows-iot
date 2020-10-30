@@ -47,9 +47,9 @@ conceptualContent:
         - url: https://docs.microsoft.com/en-us/windows/iot-core/windows-iot-enterprise
           itemType: how-to-guide
           text: Windows 10 IoT Enterprise Manufacturing Guide
-        - url: ./iot-enterprise/Advanced_Lockdown_Features.md
+        - url: ./iot-enterprise/Kiosk-Mode/Kiosk-Mode.md
           itemType: concept
-          text: Advanced Lockdown Features
+          text: Kiosk Mode
       footerLink:
         url: ./iot-enterprise/Getting_Started.md
         text: See more
