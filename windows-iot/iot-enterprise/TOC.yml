@@ -9,8 +9,6 @@
     href: OS-Features/Accessibility-Privacy.md
   - name: Cloud Connectivity
     href: OS-Features/Cloud-Connectivity.md
-  - name: Deployment Framework
-    href: OS-Features/Deployment-Framework.md
   - name: Device Drivers
     href: OS-Features/Device-Drivers.md
   - name: Device Management
@@ -69,8 +67,10 @@
 - name: Tutorials
   expanded: false 
   items: 
-  - name: Manufacturing Guide 
+  - name: Windows 10 IoT Enterprise Manufacturing Guide 
     href: https://docs.microsoft.com/windows-hardware/manufacture/desktop/iot-ent-overview
+  - name: Deployment Framework
+    href: https://github.com/ms-iot/windows-iotent-deploy
   - name: 2 Minute Kiosk 
     href: 2_Minute_Kiosk.md
 - name: Licensing
