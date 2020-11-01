@@ -26,6 +26,8 @@
 - name: Kiosk Mode
   expanded: false 
   items: 
+  - name: Kiosk Mode
+    href: Kiosk-Mode/Kiosk-Mode.md
   - name: Single-App Kiosk
     href: Kiosk-Mode/Single-App-Kiosk.md
   - name: Multi-App Kiosk
