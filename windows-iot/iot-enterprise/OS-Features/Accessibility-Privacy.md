@@ -29,8 +29,8 @@ To learn more about accessibility, please read [Accessibility Information for IT
 Microsoft will maintain the timeless value of privacy and preserve the ability for you to control your data.
 
 With Windows 10 IoT Enterprise, we provide you with even more control on your data and information. Please review, [Windows 10 & Privacy Compliance:
-A Guide for IT and Compliance Professionals](https://docs.microsoft.com/en-us/windows/privacy/windows-10-and-privacy-compliance) for more features.
+A Guide for IT and Compliance Professionals](https://docs.microsoft.com/windows/privacy/windows-10-and-privacy-compliance) for more features.
 
-Under privacy settings, you can now delete the diagnostic data your device has sent to Microsoft. You can also view this diagnostic data using the [Diagnostic Data Viewer](https://docs.microsoft.com/windows/privacy/diagnostic-data-viewer-overview) application. Check out [Windows 10 & Privacy Compliance: A Guide for IT and Compliance Professionals](https://docs.microsoft.com/en-us/windows/privacy/windows-10-and-privacy-compliance) for more privacy features.
+Under privacy settings, you can now delete the diagnostic data your device has sent to Microsoft. You can also view this diagnostic data using the [Diagnostic Data Viewer](https://docs.microsoft.com/windows/privacy/diagnostic-data-viewer-overview) application. Check out [Windows 10 & Privacy Compliance: A Guide for IT and Compliance Professionals](https://docs.microsoft.com/windows/privacy/windows-10-and-privacy-compliance) for more privacy features.
 
-Please review [Windows Privacy](https://docs.microsoft.com/en-us/windows/privacy/), and [Microsoft's Privacy Statement](https://privacy.microsoft.com/en-us/privacystatement) if you have any questions or concerns.
+Please review [Windows Privacy](https://docs.microsoft.com/en-us/windows/privacy/), and [Microsoft's Privacy Statement](https://privacy.microsoft.com/privacystatement) if you have any questions or concerns.
