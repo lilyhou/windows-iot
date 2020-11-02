@@ -20,7 +20,7 @@ Windows contains [built-in drivers](https://docs.microsoft.com/windows-hardware/
 In Windows 10 IoT Enterprise, the device signing process is different than the [traditional client signing](https://docs.microsoft.com/windows-hardware/drivers/install/driver-signing ) process.
 
 ### Traditional Client Signing
-For typical traditional client signing, if you are unfamiliar with the device and driver installation process, we recommend that you start by reviewing [Roadmap for Device and Driver Installation](https://docs.microsoft.com/windows-hardware/drivers/install/roadmap-for-device-and-driver-installation--windows-vista-and-later-). You may also want to read [Overview of Device and Driver Installation](https://docs.microsoft.com/en-us/windows-hardware/drivers/install/overview-of-device-and-driver-installation) for a high-level overview of this process and its components.
+For typical traditional client signing, if you are unfamiliar with the device and driver installation process, we recommend that you start by reviewing [Roadmap for Device and Driver Installation](https://docs.microsoft.com/windows-hardware/drivers/install/roadmap-for-device-and-driver-installation--windows-vista-and-later-). You may also want to read [Overview of Device and Driver Installation](https://docs.microsoft.com/windows-hardware/drivers/install/overview-of-device-and-driver-installation) for a high-level overview of this process and its components.
 
 ### Windows 10 IoT Enterprise Device Signing Process
 [List the requirements here, insert the steps, and explain the difference for IoT Enterprise]
