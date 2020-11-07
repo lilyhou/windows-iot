@@ -2,27 +2,6 @@
   href: Getting_Started.md
 - name: Hardware Requirements
   href: Hardware_Requirements.md
-- name: Native OS Features
-  expanded: false 
-  items:
-  - name: Accessibility & Privacy
-    href: OS-Features/Accessibility-Privacy.md
-  - name: Cloud Connectivity
-    href: OS-Features/Cloud-Connectivity.md
-  - name: Device Drivers
-    href: OS-Features/Device-Drivers.md
-  - name: Device Management
-    href: OS-Features/Device-Management.md
-  - name: Networking
-    href: OS-Features/Networking.md
-  - name: OEM Customization
-    href: OS-Features/OEM-Customization.md
-  - name: Security
-    href: OS-Features/Security.md
-  - name: Updates
-    href: OS-Features/Updates.md
-  - name: Windows Analytics
-    href: OS-Features/Windows-Analytics.md
 - name: Kiosk Mode
   expanded: false 
   items: 
@@ -66,6 +45,27 @@
     href: Branding-Features/Unbranded-Boot.md
   - name: Update Notification
     href: Branding-Features/Update-Notification.md
+- name: IoT OS Features
+  expanded: false 
+  items:
+  - name: Accessibility & Privacy
+    href: OS-Features/Accessibility-Privacy.md
+  - name: Cloud Connectivity
+    href: OS-Features/Cloud-Connectivity.md
+  - name: Device Drivers
+    href: OS-Features/Device-Drivers.md
+  - name: Device Management
+    href: OS-Features/Device-Management.md
+  - name: Networking
+    href: OS-Features/Networking.md
+  - name: OEM Customization
+    href: OS-Features/OEM-Customization.md
+  - name: Security
+    href: OS-Features/Security.md
+  - name: Updates
+    href: OS-Features/Updates.md
+  - name: Windows Analytics
+    href: OS-Features/Windows-Analytics.md
 - name: Tutorials
   expanded: false 
   items: 
