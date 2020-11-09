@@ -45,6 +45,21 @@
     href: Branding-Features/Unbranded-Boot.md
   - name: Update Notification
     href: Branding-Features/Update-Notification.md
+- name: Device Management
+  expanded: false 
+  items:
+  - name: Overview
+    href: Device-Management/Device-Management-Overview.md
+  - name: Mobile Device Management
+    href: Device-Management/Mobile-Device-Management.md
+  - name: Microsoft Intune
+    href: https://docs.microsoft.com/en-us/windows/iot-core/manage-your-device/intunedeviceenrollment
+  - name: SCCM
+    href: https://docs.microsoft.com/en-us/mem/configmgr/core/understand/what-happened-to-sccm
+  - name: Azure IoT Device Agent
+    href: https://docs.microsoft.com/en-us/windows/iot-core/manage-your-device/azureiotda
+  - name: Device Health Attestation 
+    href: https://github.com/ms-iot/iot-core-azure-dm-client/blob/master/docs/device-health-attestation.md
 - name: IoT OS Features
   expanded: false 
   items:
@@ -54,8 +69,6 @@
     href: OS-Features/Cloud-Connectivity.md
   - name: Device Drivers
     href: OS-Features/Device-Drivers.md
-  - name: Device Management
-    href: OS-Features/Device-Management.md
   - name: Networking
     href: OS-Features/Networking.md
   - name: OEM Customization

@@ -1,19 +1,17 @@
 ---
-title: Device Management
+title: Mobile Device Management
 author: rsameser
 ms.author: riameser
-ms.date: 11/02/2020
+ms.date: 11/09/2020
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
-description: Learn about the Device Management feature of Windows 10 IoT Enterprise.
+description: Learn about Mobile Device Management in Windows 10 IoT Enterprise.
 keywords: IoT Enterprise, Device Management
 ---
 
-# Device Management
+# Mobile Device Management
 Managing a device is now easier than ever on Windows 10 IoT Enterprise. Through [Mobile Device Management (MDM)](https://docs.microsoft.com/windows/client-management/mdm/#learn-about-configuration-service-providers) you have full control which devices are enrolled in various policies.
-
-Note: Are there any other device management techniques that should be included here? (Other than MDM?)
 
 ## What is Mobile Device Management
 Windows 10 provides an enterprise management solution to help IT pros manage company security policies and business applications, while avoiding compromise of the users’ privacy on their personal devices. A built-in management component can communicate with the management server.
