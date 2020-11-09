@@ -1,6 +1,7 @@
 ---
 title: Device Management Overview
 author: rsameser
+ms.author: riameser
 ms.date: 11/09/2020
 ms.topic: article
 ms.prod: windows-iot
@@ -18,7 +19,7 @@ Windows 10 provides an enterprise management solution to help IT pros manage com
 [Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune) is a cloud-based service that focuses on mobile device management (MDM) and mobile application management (MAM). You control how your organization’s devices are used and can configure specific policies to control applications. Intune is part of [Microsoft's Enterprise Mobility + Security (EMS) suite](https://www.microsoft.com/microsoft-365/enterprise-mobility-security?rtc=1). Intune integrates with Azure Active Directory (Azure AD) to control who has access, and what they can access. It also integrates with Azure Information Protection for data protection.
 
 ## Microsoft Endpoint Manager (Formerly SCCM)
-[Microsoft Endpoint Manager](https://docs.microsoft.com/en-us/mem/configmgr/core/understand/introduction) is an integrated solution for managing all of your devices. Microsoft brings together Configuration Manager and Intune, without a complex migration, and with simplified licensing. Continue to leverage your existing Configuration Manager investments, while taking advantage of the power of the Microsoft cloud at your own pace.
+[Microsoft Endpoint Manager](https://docs.microsoft.com/mem/configmgr/core/understand/introduction) is an integrated solution for managing all of your devices. Microsoft brings together Configuration Manager and Intune, without a complex migration, and with simplified licensing. Continue to leverage your existing Configuration Manager investments, while taking advantage of the power of the Microsoft cloud at your own pace.
 
 ### SCCM
 Starting in version 1910, [Configuration Manager](https://docs.microsoft.com/mem/configmgr/core/understand/what-happened-to-sccm) current branch is now part of Microsoft Endpoint Manager. Version 1906 and earlier are still branded System Center Configuration Manager. The Microsoft Endpoint Manager brand will appear in the product and documentation over the coming months.
