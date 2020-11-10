@@ -14,8 +14,8 @@
 - name: Advanced Lockdown Features
   expanded: false 
   items: 
-  - name: Windows Defender Application Control (WDAC) and AppLocker
-    href: Advanced-Lockdown-Features/WDAC-AppLocker.md
+  - name: Application Control
+    href: Advanced-Lockdown-Features/Application-Control.md
   - name: Edge Swipe Policy
     href: Advanced-Lockdown-Features/Edge-Swipe-Policy.md
   - name: Filtering and Controlling (USB Access) 
