@@ -53,22 +53,29 @@
   - name: Mobile Device Management
     href: Device-Management/Mobile-Device-Management.md
   - name: Microsoft Intune
-    href: https://docs.microsoft.com/en-us/windows/iot-core/manage-your-device/intunedeviceenrollment
-  - name: SCCM
-    href: https://docs.microsoft.com/en-us/mem/configmgr/core/understand/what-happened-to-sccm
+    href: https://docs.microsoft.com/windows/iot-core/manage-your-device/intunedeviceenrollment
+  - name: Microsoft Endpoint Manager
+    href: https://docs.microsoft.com/mem/configmgr/core/understand/introduction
   - name: Azure IoT Device Agent
-    href: https://docs.microsoft.com/en-us/windows/iot-core/manage-your-device/azureiotda
+    href: https://docs.microsoft.com/windows/iot-core/manage-your-device/azureiotda
   - name: Device Health Attestation 
-    href: https://github.com/ms-iot/iot-core-azure-dm-client/blob/master/docs/device-health-attestation.md
-- name: IoT OS Features
+    href: https://github.com/ms-iot/iot-core-azure-dm-client/blob/master/docs/dha-architecture.md
+- name: IoT Device Features
   expanded: false 
   items:
+  - name: Embedded Mode
+    href: OS-Features/Embedded-Mode.md
+  - name: Bus Providers 
+    href: OS-Features/Bus-Providers.md
+  - name: On-Screen Keyboard
+    href: OS-Features/On-Screen-Keyboard.md
   - name: Accessibility & Privacy
     href: OS-Features/Accessibility-Privacy.md
   - name: Cloud Connectivity
     href: OS-Features/Cloud-Connectivity.md
   - name: Device Drivers
     href: OS-Features/Device-Drivers.md
+ 
   - name: Networking
     href: OS-Features/Networking.md
   - name: OEM Customization
