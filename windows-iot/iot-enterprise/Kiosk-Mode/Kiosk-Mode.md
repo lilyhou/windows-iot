@@ -25,3 +25,10 @@ If you want your kiosk to run a single app for anyone to see or use, consider a 
 
 ## Which type of user account will be the kiosk account?
 The kiosk account can be a local standard user account, a local administrator account, a domain account, or an Azure Active Directory (Azure AD) account, depending on the method that you use to configure the kiosk. If you want people to sign in and authenticate on the device, you should use a multi-app kiosk configuration. The single-app kiosk configuration doesn't require people to sign in to the device, although they can sign in to the kiosk app if you select an app that has a sign-in method.
+
+## Kiosk Capabilities for Iot Enterprise
+| Mode | Features | Description | Implementation Detail | Customer Usage  |
+|--------------|----------|-------------|-----------------------|-----------------|
+| Assigned Access | Single-app Kiosk (UMP)  | Auto launches a UWP app in full screen and prevents access to other system functions and monitors the lifecycle of the kiosk app. Only supports one single-app kiosk profile under one account per device.  | UWP based kiosk app runs above lock screen | Digital Signs & Single Function Tables
+| Assigned Access | Multi-app kiosk | Always auto launches a restricted Start menu in full screen with the list of allowed app tiles. Supports configuring different multi-app kiosk profiles for different users/user groups per device. | Restricted Shell+Start and apps with default lockdown policies, AppLocker rules and shell runtime checks | First-line Workers & Industrial PCs/Tablets |
+| Shell Launcher | Shell Launcher | Auto launches an app that the customer specifies and monitors the lifecycle of this app. App can be used as a ‘shell’ if desired. No Microsoft default lockdown policies enforced - unlike AA (above) with Shell Launcher policies must be implemented by the customer as required. | OEM Custom shell app runs under customshellhost.exe after logon instead of running explorer.exe | Machine Builders & Specialty Tablets |

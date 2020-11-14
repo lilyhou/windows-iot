@@ -65,50 +65,50 @@ To enable embedded mode, you will need to create a provisioning package in Imagi
 1. When installing the ADK select **Imaging and Configuration Designer (ICD)**
 2. After installation is complete, run Windows Imaging and Configuration Designer (WICD).
 
-    ![WICD Icon](../media/EmbeddedMode/WICD_Icon.png)
+    ![WICD Icon](../../media/EmbeddedMode/WICD_Icon.png)
 
 3. Click **Advanced provisioning**.  Name the project **AllowEmbeddedMode** and click **Next**.
-    ![Step #3](../media/EmbeddedMode/Step3.png)
+    ![Step #3](../../media/EmbeddedMode/Step3.png)
 
 4. Choose **Common to all Windows editions** then **Next**.
-    ![Step #4](../media/EmbeddedMode/Step4.png)
+    ![Step #4](../../media/EmbeddedMode/Step4.png)
 
 5. Click **Finish**.
 
-    ![Step #5](../media/EmbeddedMode/Step5.png)
+    ![Step #5](../../media/EmbeddedMode/Step5.png)
 
 6. In the search box type **EmbeddedMode** and then click on **AllowEmbeddedMode**.
 
-    ![Step #6](../media/EmbeddedMode/Step6.png)
+    ![Step #6](../../media/EmbeddedMode/Step6.png)
 
 7. In the center pane set the value of **AllowEmbeddedMode** to **Yes**
-    ![Step #7](../media/EmbeddedMode/Step7.png)
+    ![Step #7](../../media/EmbeddedMode/Step7.png)
 
 8. Click Export > Provisioning Package
 
-    ![Step #8](../media/EmbeddedMode/Step8.png)
+    ![Step #8](../../media/EmbeddedMode/Step8.png)
 
 9. Click Next.
 
-    ![Step #9](../media/EmbeddedMode/Step9.png)
+    ![Step #9](../../media/EmbeddedMode/Step9.png)
 
 10. Click Next.
 
-    ![Step #10](../media/EmbeddedMode/Step10.png)
+    ![Step #10](../../media/EmbeddedMode/Step10.png)
 
 11. Click Next.
 
-    ![Step #11](../media/EmbeddedMode/Step11.png)
+    ![Step #11](../../media/EmbeddedMode/Step11.png)
 
 12. Click Build.
 
-    ![Step #12](../media/EmbeddedMode/Step12.png)
+    ![Step #12](../../media/EmbeddedMode/Step12.png)
 
 13. To install the embedded mode .PPKG on Windows IoT Enterprise double-click on the .PPKG.
 
 14. Click **Yes, add it**.
     Click yes on the LUA dialog if it appears, and the click **Yes, add it** on the dialog shown below.
-    ![Step #14 Standard](../media/EmbeddedMode/Step14Standard.png)
+    ![Step #14 Standard](../../media/EmbeddedMode/Step14Standard.png)
 
 
 ## Configuring a Background Application to Run automatically

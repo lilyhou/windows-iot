@@ -6,7 +6,7 @@ ms.date: 11/13/2020
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
-description: Learn about the networking features of Windows 10 IoT Enterprise.
+description: Learn about the on-screen keyboard features in Windows 10 IoT Enterprise.
 keywords: IoT Enterprise, Networking
 ---
 # On-screen keyboard
@@ -25,7 +25,7 @@ The keyboard implementation provides the following benefits to your headed devic
 ## Feature packages
 
 For prototyping (development) images, the on-screen keyboard feature is already included, but you will need to
-enable it from Device Settings in the [Windows Device Portal](../manage-your-device/deviceportal.md#iot-specific-features).
+enable it from Device Settings in the [Windows Device Portal](https://docs.microsoft.com/windows/iot-core/manage-your-device/deviceportal).
 
 For commercialization, the following optional feature packages will add the on-screen keyboard to your image:
 * IOT_SHELL_ONSCREEN_KEYBOARD

@@ -75,9 +75,6 @@
     href: OS-Features/Cloud-Connectivity.md
   - name: Device Drivers
     href: OS-Features/Device-Drivers.md
- 
-  - name: Networking
-    href: OS-Features/Networking.md
   - name: OEM Customization
     href: OS-Features/OEM-Customization.md
   - name: Security
