@@ -2,7 +2,7 @@
 title: Kiosk Mode
 author: rsameser
 ms.author: riameser
-ms.date: 10/30/2020
+ms.date: 11/13/2020
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
