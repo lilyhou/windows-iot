@@ -18,8 +18,8 @@
     href: Advanced-Lockdown-Features/Application-Control.md
   - name: Edge Swipe Policy
     href: Advanced-Lockdown-Features/Edge-Swipe-Policy.md
-  - name: Filtering and Controlling (USB Access) 
-    href: Advanced-Lockdown-Features/Filtering-Controlling.md
+  - name: Device Safeguards
+    href: Advanced-Lockdown-Features/Device-Safeguards.md
   - name: Keyboard Filter
     href: Advanced-Lockdown-Features/Keyboard-Filter.md
   - name: Shell Launcher
