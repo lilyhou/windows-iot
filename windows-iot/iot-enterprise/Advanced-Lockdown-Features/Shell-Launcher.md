@@ -48,7 +48,8 @@ You can configure the following options for Shell Launcher:
 * Change the default shell configuration.
 * Get information on a shell configuration for a specific user or group.
 
-> [!NOTE] Any changes do not take effect until a user signs in.
+> [!NOTE]
+> Any changes do not take effect until a user signs in.
 
 ## Additional Resources
 * [Use Shell Launcher to create a Windows 10 Kiosk](https://docs.microsoft.com/windows/configuration/kiosk-shelllauncher)
