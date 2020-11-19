@@ -12,7 +12,7 @@ keywords: Lockdown, Edge Swipe
 # Edge Swipe Policy
 If your Windows 10 device has a touchscreen, users have the option to swipe from the edge of a screen to invoke a system user interface. Depending on the direction of the swipe, the action center, tablet mode or taskbar can appear.
 
-## How to Enable/Disable Edge Swipe via Group policy
+## How to Enable/Disable Edge Swipe via Group Policy
 One of the ways you can go about managing the screen edge swipe functionality in Windows 10 IoT Enterprise is by using the Group Policy Editor.
 
 The following steps outline how to enable/disable the policy:
@@ -22,7 +22,7 @@ The following steps outline how to enable/disable the policy:
 4. Select if you would like to enable or disable this policy.
 5. For this change of policy to go into effect, restart the device.
 
-> [NOTE!]
+> [!NOTE]
 > By disabling this policy setting, users will not be able to invoke any system UI by swiping in from any screen edge.
 > If you enable or do not configure this policy setting, users will be able to invoke system UI by swiping in from the screen edges.
 
