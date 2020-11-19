@@ -95,8 +95,8 @@ To Enable this Policy:
 4. Select 'Enabled'
 5. Apply Changes, Restart Device
 
->[!Note]
-This policy setting takes precedence over any other policy setting that allows Windows to install a device. If you disable or do not configure this policy setting, Windows can install and update device drivers for removable devices as allowed or prevented by other policy settings.
+> [!NOTE]
+> This policy setting takes precedence over any other policy setting that allows Windows to install a device. If you disable or do not configure this policy setting, Windows can install and update device drivers for removable devices as allowed or prevented by other policy settings.
 
 ## Create customized alerts and response actions
 You can create [custom alerts and response actions](https://docs.microsoft.com/windows/security/threat-protection/device-control/control-usb-devices-using-intune#create-customized-alerts-and-response-actions) with the WDATP Connector and the custom detection rules:
