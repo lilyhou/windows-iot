@@ -42,4 +42,4 @@ After UWF is enabled, you can finally select a drive to protect and start using 
 * [Unified Write Filter](https://docs.microsoft.com/windows-hardware/customize/enterprise/unified-write-filter)
 * [Unified Write Filter WMI Provider Reference](https://docs.microsoft.com/windows-hardware/customize/enterprise/uwf-wmi-provider-reference)
 * [UWF Command-line tool](https://docs.microsoft.com/windows-hardware/customize/enterprise/uwfmgrexe)
-Learn how to [enable the unified write filter](https://docs.microsoft.com/windows-hardware/customize/enterprise/uwf-turnonuwf) to enhance your kiosk experience.  
+* [Service UWF-protected devices](https://docs.microsoft.com/windows-hardware/customize/enterprise/service-uwf-protected-devices)
