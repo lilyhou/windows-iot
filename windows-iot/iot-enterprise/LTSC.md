@@ -27,7 +27,7 @@ Microsoft makes available a new Windows 10 IoT Enterprise LTSC release approxima
 | --- | --- | --- |
 | [Windows 10 Enterprise 2019 LTSC](https://docs.microsoft.com/windows/whats-new/ltsc/whats-new-windows-10-2019)  | Windows 10, Version 1809 | 11/13/2018 |
 | [Windows 10 Enterprise 2016 LTSC](https://docs.microsoft.com/windows/whats-new/ltsc/whats-new-windows-10-2016)  | Windows 10, Version 1607 | 8/2/2016 |
-| [Windows 10 Enterprise 2015 LTSC](https://docs.microsoft.com/en-us/windows/whats-new/ltsc/whats-new-windows-10-2015)  | Windows 10, Version 1507 | 7/29/2015 |
+| [Windows 10 Enterprise 2015 LTSC](https://docs.microsoft.com/windows/whats-new/ltsc/whats-new-windows-10-2015)  | Windows 10, Version 1507 | 7/29/2015 |
 
 
 ## Long-Term Support Silicon Details
@@ -37,4 +37,4 @@ The Windows 10 IoT Enterprise LTSC 2019 is the most recent LTSC release. Learn m
 
 ## Additional Resources
 * [Learn More About LTSC](https://docs.microsoft.com/windows/deployment/update/waas-overview#long-term-servicing-channel)
-* [Windows 10 Enterprise LTSC](https://docs.microsoft.com/en-us/windows/whats-new/ltsc/)
+* [Windows 10 Enterprise LTSC](https://docs.microsoft.com/windows/whats-new/ltsc/)
