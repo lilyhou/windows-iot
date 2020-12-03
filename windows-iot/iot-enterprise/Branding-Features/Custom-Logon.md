@@ -26,8 +26,8 @@ The Custom Logon feature is available in the Control Panel. You can set Custom L
 1. In the Search the web and Windows field, type Turn Windows features on or off.
 2. In the Windows Features window, expand the Device Lockdown node, and select or clear the checkbox for Custom Logon.
 
-* [Turn on and configure Custom Logon using DISM](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/custom-logon#turn-on-custom-logon)
-* [Configure Custom Logon settings using Unattend](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/custom-logon#turn-on-custom-logon)
+* [Turn on and configure Custom Logon using DISM](https://docs.microsoft.com/windows-hardware/customize/enterprise/custom-logon#turn-on-custom-logon)
+* [Configure Custom Logon settings using Unattend](https://docs.microsoft.com/windows-hardware/customize/enterprise/custom-logon#turn-on-custom-logon)
 
 ## Complementary Features
 You may want to use or change some of the following features in conjunction with Custom Logon to complete the user experience.
