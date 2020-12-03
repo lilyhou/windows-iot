@@ -35,16 +35,3 @@ A fixed purpose device differs from a general purpose device in the following wa
 * Keyboards, USB ports, and device policies are locked down to constrain the device to be used only in its fixed purpose.  
 * The OEM licenses the device to the user with the software attached to the device as a complete product and passes through specific Windows terms in their own agreements.
 * The OEM provides the customer support for their complete product, including the functions performed by the operating system.
-
-## Long-term Servicing Channel (LTSC)
-
-Specialized systems, such as PCs that control medical equipment, point-of-sale systems, and ATMs, often require a longer servicing option because of their purpose. These devices typically perform a single important task and don’t need feature updates as frequently as other devices in the organization. It’s more important that these devices be kept as stable and secure as possible than that they be up to date with UI changes. The LTSC servicing model prevents Windows 10 IoT Enterprise LTSC devices from receiving the usual feature updates and provides only quality updates to ensure that device security stays up to date. With this in mind, quality updates are still immediately available to Windows 10 IoT Enterprise LTSC clients, but customers can choose to defer them by using one of the servicing tools mentioned in the Servicing tools section.
-
-* [Learn more about LTSC](https://docs.microsoft.com/windows/deployment/update/waas-overview#long-term-servicing-channel)
-
-> [!NOTE]
-> Due to the long life of the LTSC releases and the benefit of remaining on a specific release for 10 years, an upgrade fee will be charged for customers moving from one LTSC release to another.
-
-## Long-Term Support Silicon Details
-
-The Windows 10 IoT Enterprise LTSC 2019 is the most recent LTSC release. Learn more about the [lifecycle support](https://support.microsoft.com/help/13853/windows-lifecycle-fact-sheet) and details on [processor support](https://docs.microsoft.com/windows-hardware/design/minimum/windows-processor-requirements#windows-iot-enterprise--embedded-processors) for each edition and channel of Windows 10.

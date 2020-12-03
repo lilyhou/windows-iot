@@ -2,7 +2,7 @@
 title: Hardware Requirements
 author: rsameser
 ms.author: riameser
-ms.date: 08/28/2020
+ms.date: 12/1/2020
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -11,3 +11,10 @@ keywords: IoT Enterprise, Hardware
 ---
 
 # Hardware Requirements
+
+
+## Minimum Hardware Requirements
+
+## Windows Processor Requirements
+
+## ARM64

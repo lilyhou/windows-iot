@@ -92,6 +92,8 @@
     href: https://github.com/ms-iot/windows-iotent-deploy
   - name: 2 Minute Kiosk 
     href: 2_Minute_Kiosk.md
+- name: Long-term Servicing Channel (LTSC)
+  href: LTSC.md
 - name: Licensing
   href: Licensing.md
 - name: Best Practices
