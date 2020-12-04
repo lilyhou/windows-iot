@@ -2,7 +2,7 @@
 title: Page Visibility
 author: rsameser
 ms.author: riameser
-ms.date: 10/30/2020
+ms.date: 12/03/2020
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
