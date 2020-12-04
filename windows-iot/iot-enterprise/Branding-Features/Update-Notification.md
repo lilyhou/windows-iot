@@ -85,6 +85,6 @@ You can configure Windows Update in several ways, and not all policies are appli
 
 ## Additional Resources
 * [Manage device restarts after updates](https://docs.microsoft.com/windows/deployment/update/waas-restart)
-* [Manage additional Windows Update settings](https://docs.microsoft.com/en-us/windows/deployment/update/waas-wu-settings)
+* [Manage additional Windows Update settings](https://docs.microsoft.com/windows/deployment/update/waas-wu-settings)
 * [Deploy feature updates during maintenance windows](https://docs.microsoft.com/windows/deployment/update/feature-update-maintenance-window)
 * [Deploy feature updates for user-initiated installations](https://docs.microsoft.com/windows/deployment/update/feature-update-user-install)
