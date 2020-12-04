@@ -16,6 +16,10 @@ keywords: IoT Enterprise, Glossary
 
 **Configure**: To customize the setting or sub-settings.
 
+**Custom Boot Experience**: this feature is called "Custom Boot Experience" in Windows 10, build 1607 and later.
+
+**Embedded Boot Experience**: this feature is called "Embedded Boot Experience" in Windows 10, build 1511.
+
 **Embedded Logon**: This feature is called Embedded Logon in Windows 10, version 1511.
 
 **Custom Logon**: This feature is called Custom Logon in Windows 10, version 1607 and later.
