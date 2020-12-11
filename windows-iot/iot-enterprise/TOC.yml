@@ -52,14 +52,6 @@
     href: Device-Management/Device-Management-Overview.md
   - name: Mobile Device Management
     href: Device-Management/Mobile-Device-Management.md
-  - name: Microsoft Intune
-    href: https://docs.microsoft.com/windows/iot-core/manage-your-device/intunedeviceenrollment
-  - name: Microsoft Endpoint Manager
-    href: https://docs.microsoft.com/mem/configmgr/core/understand/introduction
-  - name: Azure IoT Device Agent
-    href: https://docs.microsoft.com/windows/iot-core/manage-your-device/azureiotda
-  - name: Device Health Attestation 
-    href: https://github.com/ms-iot/iot-core-azure-dm-client/blob/master/docs/dha-architecture.md
 - name: IoT Device Features
   expanded: false 
   items:

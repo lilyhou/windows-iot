@@ -72,6 +72,12 @@ This opens the **Only display the private store within the Microsoft Store app**
 
 4. On the **Only display the private store within the Microsoft Store app** setting page, click **Enabled**, and then click **OK**.
 
+## LTSC & SAC Advantage
+The LTSC has the store service for updating preinstalled apps, but it does not have the Store UI for browsing apps. SAC has both the store service and UI.
+
+## App Updates  
+There is also a setting for configuring how often the store updates apps and that this configuration can be useful when determining how and when to update applications on your IoT Device.
+
 ## Additional Resources
 * [Configure access to Microsoft Store](https://docs.microsoft.com/windows/configuration/stop-employees-from-using-microsoft-store#options-to-configure-access-to-microsoft-store)
 

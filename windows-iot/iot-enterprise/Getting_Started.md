@@ -2,7 +2,7 @@
 title: Getting Started with Windows 10 IoT Enterprise
 author: rsameser
 ms.author: riameser
-ms.date: 09/25/2020
+ms.date: 12/08/2020
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -25,13 +25,15 @@ Please note that Windows 10 IoT Enterprise offers both [Long-term Servicing Chan
 ## Fixed purpose devices
 
 > [!TIP]
-> See your licensing agreement for complete guidance on all Windows 10 IoT Enterprise usage scenarios. If you do not have this licensing agreement, ask the OEM you work with for the commercial agreement.
+> See your licensing agreement for complete guidance on all Windows 10 IoT Enterprise usage scenarios. If you are an end-user customer, your OEM should have provided you with the terms in an agreement. If you are an OEM, you can direct questions to your distributor regarding your specific licensing agreement.  
 
-Windows is well known as the operating systems on laptops and desktops used by consumers and businesses world-wide for decades.  Windows also powers many ATM machines, point-of-sale terminals, industrial automation systems, thin clients, medical devices, digital signage, kiosks, and other fixed purpose devices.  Windows 10 IoT Enterprise allows you to build fixed purpose devices with specific allowances and restrictions in the license agreement.  
+If you do not have this licensing agreement, ask the OEM you work with for the commercial agreement.
 
-A fixed purpose device differs from a general purpose device in the following ways:  
+Windows is well known as the operating system for laptops and desktops that have been used by consumers and businesses worldwide for decades.  Windows also powers many ATM machines, point-of-sale terminals, industrial automation systems, thin clients, medical devices, digital signage, kiosks, and other fixed purpose devices.  Windows 10 IoT Enterprise allows you to build these fixed purpose devices with specific allowances and restrictions in the license agreement.  
+
+A fixed purpose device differs from a general-purpose device in the following ways:  
 * The device is locked down to a single application or fixed set of applications through the Assigned Access or Shell Launcher features.  
-* The device experience is immediate when the customer powers-on. This is achieved by configuring the device image to skip the normal Windows out-of-box experiences.
-* Keyboards, USB ports, and device policies are locked down to constrain the device to be used only in its fixed purpose.  
-* The OEM licenses the device to the user with the software attached to the device as a complete product and passes through specific Windows terms in their own agreements.
+* The device experience is often immediate when the customer powers-on. This is achieved by configuring the device image to skip the normal Windows out-of-box experiences.
+* Keyboards, USB ports, and device policies can be locked down to constrain the device to be used only in its fixed purpose.  
+* The IoT Device OEM licenses the device to the user with the software attached to the device as a complete product and passes through specific Windows terms in their own IoT OEM agreements.
 * The OEM provides the customer support for their complete product, including the functions performed by the operating system.

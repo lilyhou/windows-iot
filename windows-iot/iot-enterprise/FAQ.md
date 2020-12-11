@@ -27,10 +27,10 @@ Listed below are the four most-commonly used management methods for IoT solution
 Microsoft [System Center Configuration (SCCM)](https://docs.microsoft.com/system-center/), a solution typically used by IT departments, works with IoT Enterprise under current support terms. There is an exception process if your customer requires SCCM on IoT Core – please contact us with that request.
 
 ### Mobile Device Management (MDM)
-You can use [Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune) (and other Non-Microsoft MDMs like: VMWare AirWatch, MobileIron, etc) with both IoT Enterprise and IoT Core, again this is a solution typically administered by IT departments.
+You can use [Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune) (and other Non-Microsoft MDMs like: VMWare AirWatch, MobileIron, etc.) with both IoT Enterprise and IoT Core, again this is a solution typically administered by IT departments.
 
 ### Azure IoT
 You can also build your own device management using [Azure IoT Device Twin and the Azure Device Agent](https://github.com/ms-iot/azure-client-tools/blob/master/docs/device-agent/device-agent.md) for IoT Core/IoT Enterprise. This method is mostly used by IoT Solution Operators.
 
 ### Device Update Center
-[Device Update Center (DUC)](https://docs.microsoft.com/windows-hardware/service/iot/using-device-update-center) is available for IoT Core today. DUC is not really device management. It is update control which exists before device management in the control chain. Which means you (or your customers) can still use device management if you choose DUC. This method is mostly used by appliance device builders.
+[Device Update Center (DUC)](https://docs.microsoft.com/windows-hardware/service/iot/using-device-update-center) is available for IoT Core today. DUC is not really device management, but it is included in this list for completeness. DUC is update control which is staged before device management in the control chain. This means that you (or your customers) can still use device management if you choose DUC for upstream control. This service is often used in conjunction with Azure Device Agent by appliance device builders.
