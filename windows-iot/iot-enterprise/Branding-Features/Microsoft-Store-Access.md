@@ -2,7 +2,7 @@
 title: Microsoft Store Access
 author: rsameser
 ms.author: riameser
-ms.date: 12/03/2020
+ms.date: 12/11/2020
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -73,10 +73,15 @@ This opens the **Only display the private store within the Microsoft Store app**
 4. On the **Only display the private store within the Microsoft Store app** setting page, click **Enabled**, and then click **OK**.
 
 ## LTSC & SAC Advantage
-The LTSC has the store service for updating preinstalled apps, but it does not have the Store UI for browsing apps. SAC has both the store service and UI.
+The [LTSC](https://docs.microsoft.com/windows/deployment/update/waas-overview#long-term-servicing-channel) has the store service for updating preinstalled apps, but unfortunately it does not include the Store UI for browsing apps. The [Semi-Annual Channel (SAC)](https://docs.microsoft.com/windows/deployment/update/waas-overview#semi-annual-channel) has both the store service and UI.
 
 ## App Updates  
 There is also a setting for configuring how often the store updates apps and that this configuration can be useful when determining how and when to update applications on your IoT Device.
+To Turn On or Off Update Apps Automatically in Store using Group Policy:
+1. Open Local Group Policy Editor
+2. Navigate to **Computer Configuration** > **Administrative Templates** > **Windows Components** > **Store**
+3. Double click **Turn off Automatic Download and Install of Updates** policy to edit it.
+4. Select **Turn off Automatic Download and Install of updates** policy to edit it.
 
 ## Additional Resources
 * [Configure access to Microsoft Store](https://docs.microsoft.com/windows/configuration/stop-employees-from-using-microsoft-store#options-to-configure-access-to-microsoft-store)
