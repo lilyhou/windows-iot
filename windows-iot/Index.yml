@@ -37,82 +37,53 @@ highlightedContent:
       itemType: how-to-guide
       url: ./iot-enterprise/2_Minute_Kiosk.md
       
-conceptualContent:
+productDirectory:
   items:
     - title: Windows 10 IoT Enterprise
+      imageSrc: media/index/windows.svg
       links:
         - url: ./iot-enterprise/Getting_Started.md
-          itemType: overview
-          text: What is Windows 10 IoT Enterprise?
+          text: Overview
         - url: https://docs.microsoft.com/en-us/windows/iot-core/windows-iot-enterprise
-          itemType: how-to-guide
-          text: Windows 10 IoT Enterprise Manufacturing Guide
+          text: Manufacturing Guide
         - url: ./iot-enterprise/Kiosk-Mode/Kiosk-Mode.md
-          itemType: concept
           text: Kiosk Mode
-      footerLink:
-        url: ./iot-enterprise/Getting_Started.md
-        text: See more
-
     - title: Windows 10 IoT Core
+      imageSrc: media/index/windows.svg
       links:
         - url: https://docs.microsoft.com/en-us/windows/iot-core/windows-iot-core
-          itemType: overview
-          text: What is Windows 10 IoT Core? 
+          text: Overview
         - url: https://docs.microsoft.com/en-us/windows-hardware/manufacture/iot/iot-core-manufacturing-guide
-          itemType: how-to-guide
-          text: Windows 10 IoT Core Manufacturing Guide
+          text: Manufacturing Guide
         - url: https://docs.microsoft.com/en-us/windows/iot-core/connect-your-device/iotdashboard
-          itemType: quickstart
-          text: Windows 10 IoT Core Dashboard
-      footerLink:
-        url: https://docs.microsoft.com/en-us/windows/iot-core/windows-iot-core
-        text: See more
-
+          text: Dashboard
     - title: Windows 10 IoT Core Services
+      imageSrc: media/index/windows.svg
       links:
         - url: https://docs.microsoft.com/en-us/windows-hardware/manufacture/iot/iotcoreservicesoverview
-          itemType: overview
-          text: What is Windows 10 IoT Core Services?
+          text: Overview
         - url: https://docs.microsoft.com/en-us/windows/deployment/update/waas-overview#long-term-servicing-channel
-          itemType: overview
           text: Window Long-Term Servicing Channel (LTSC) Releases
         - url: https://docs.microsoft.com/en-us/windows-hardware/service/iot/using-device-update-center
-          itemType: concept
           text: Device Update Center
-      footerLink:
-        url: https://docs.microsoft.com/en-us/windows-hardware/manufacture/iot/iotcoreservicesoverview
-        text: See more
-
     - title: Windows CE Migration
+      imageSrc: media/index/windows.svg
       links:
         - url: ./windows_ce/windows-ce-migration-faq.md
-          itemType: overview
-          text:  Windows CE Migration FAQ
+          text:  Frequently Asked Questions
         - url: ./windows_ce/windows-ce-app-container-overview.md
-          itemType: overview
           text:  Windows CE App Container
         - url: ./windows_ce/windows-ce-app-container-getting-started.md
-          itemType: how-to-guide
           text:  Getting Started with Windows CE App Container
-      footerLink:
-        url: ./windows_ce/windows-ce-app-container-overview.md
-        text: See more
-
     - title: Windows Server IoT 2019
+      imageSrc: media/index/windows.svg
       links:
         - url: https://docs.microsoft.com/en-us/windows/iot-core/windows-server
-          itemType: overview
-          text: What is Windows Server IoT 2019?
+          text: Overview
         - url: https://docs.microsoft.com/en-us/windows-server/get-started-19/whats-new-19
-          itemType: whats-new
           text:  What's new in Windows Server 2019?
         - url: https://docs.microsoft.com/en-us/windows-server/get-started-19/get-started-19
-          itemType: get-started
           text:  Get Started with Windows Server 2019
-      footerLink:
-        url: https://docs.microsoft.com/en-us/windows-server/
-        text: See more
 
 conceptualContent:
   items:
@@ -127,10 +98,6 @@ conceptualContent:
         - url: https://docs.microsoft.com/en-us/windows/iot-core/windows-iot
           itemType: how-to-guide
           text:  2 Minute Kiosk
-      footerLink:
-        url: https://docs.microsoft.com/en-us/windows/iot-core/windows-iot
-        text: See more
-
     - title: Get Started
       links:
         - url: ./iot-enterprise/Licensing.md
@@ -142,10 +109,6 @@ conceptualContent:
         - url: https://docs.microsoft.com/en-us/windows-hardware/manufacture/
           itemType: how-to-guide
           text:  Manufacturing Guide
-      footerLink:
-        url: https://docs.microsoft.com/en-us/windows/iot-core/windows-iot
-        text: See more
-
     - title: Resources
       links:
         - url: https://docs.microsoft.com/en-us/windows/iot-core/resources#blog-posts
@@ -157,6 +120,3 @@ conceptualContent:
         - url: https://docs.microsoft.com/en-us/windows/iot-core/resources#whitepapers
           itemType: reference
           text:  Whitepapers
-      footerLink:
-        url: https://docs.microsoft.com/en-us/windows/iot-core/resources
-        text: See more    
