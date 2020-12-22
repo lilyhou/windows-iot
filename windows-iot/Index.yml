@@ -14,8 +14,9 @@ metadata:
   ms.author: riameser
   ms.date: 10/16/2020
   
-highlightedContent:
 # itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new
+  
+highlightedContent:
   items:
     - title: What is Windows IoT?
       itemType: overview # controls the icon image and super-title text
@@ -23,7 +24,7 @@ highlightedContent:
     - title: What's new in Windows IoT?
       itemType: whats-new
       url: https://docs.microsoft.com/en-us/windows/iot-core/windows-iot
-    - title: Which Windows IoT Solution is For Me?
+    - title: Which Windows IoT Solution is Right For Me?
       itemType: get-started
       url: https://docs.microsoft.com/en-us/windows/iot-core/windows-iot
     - title: Different types of IoT Devices
@@ -37,7 +38,6 @@ highlightedContent:
       url: ./iot-enterprise/2_Minute_Kiosk.md
       
 conceptualContent:
-# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new
   items:
     - title: Windows 10 IoT Enterprise
       links:
@@ -114,6 +114,8 @@ conceptualContent:
         url: https://docs.microsoft.com/en-us/windows-server/
         text: See more
 
+conceptualContent:
+  items:
     - title: Windows IoT Academy
       links:
         - url: https://docs.microsoft.com/en-us/windows/iot-core/windows-iot

@@ -52,6 +52,8 @@
     href: Device-Management/Device-Management-Overview.md
   - name: Mobile Device Management
     href: Device-Management/Mobile-Device-Management.md
+  - name: Application Updates 
+    href: Device-Management/App-Updates.md
 - name: IoT Device Features
   expanded: false 
   items:
