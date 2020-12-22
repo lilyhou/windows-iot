@@ -35,10 +35,10 @@ highlightedContent:
     - title: Set up a Kiosk in 2 Minutes
       itemType: how-to-guide
       url: ./iot-enterprise/2_Minute_Kiosk.md
-      
+
 productDirectory: 
 # itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new
-items:
+    items:
     - title: Windows 10 IoT Enterprise
       links:
         - url: ./iot-enterprise/Getting_Started.md
@@ -117,6 +117,7 @@ items:
 
 conceptualContent:
 # itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new
+    items: 
     - title: Windows IoT Academy
       links:
         - url: https://docs.microsoft.com/en-us/windows/iot-core/windows-iot
