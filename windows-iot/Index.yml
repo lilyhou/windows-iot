@@ -12,10 +12,13 @@ metadata:
   ms.technology: iot
   author: rsameser
   ms.author: riameser
-  ms.date: 10/16/2020
-  
-highlightedContent:
+  ms.date: 12/22/2020
+
+
 # itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new
+
+
+highlightedContent:
   items:
     - title: What is Windows IoT?
       itemType: overview # controls the icon image and super-title text
@@ -37,9 +40,9 @@ highlightedContent:
       url: ./iot-enterprise/2_Minute_Kiosk.md
 
 productDirectory: 
-# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new
     items:
     - title: Windows 10 IoT Enterprise
+      imageSrc: ./media/index/windows.svg
       links:
         - url: ./iot-enterprise/Getting_Started.md
           itemType: overview
@@ -55,6 +58,7 @@ productDirectory:
         text: See more
 
     - title: Windows 10 IoT Core
+      imageSrc: ./media/index/windows.svg
       links:
         - url: https://docs.microsoft.com/en-us/windows/iot-core/windows-iot-core
           itemType: overview
@@ -70,6 +74,7 @@ productDirectory:
         text: See more
 
     - title: Windows 10 IoT Core Services
+      imageSrc: ./media/index/windows.svg
       links:
         - url: https://docs.microsoft.com/en-us/windows-hardware/manufacture/iot/iotcoreservicesoverview
           itemType: overview
@@ -85,6 +90,7 @@ productDirectory:
         text: See more
 
     - title: Windows CE Migration
+      imageSrc: ./media/index/windows.svg
       links:
         - url: ./windows_ce/windows-ce-migration-faq.md
           itemType: overview
@@ -100,6 +106,7 @@ productDirectory:
         text: See more
 
     - title: Windows Server IoT 2019
+      imageSrc: ./media/index/windows.svg
       links:
         - url: https://docs.microsoft.com/en-us/windows/iot-core/windows-server
           itemType: overview
@@ -114,9 +121,7 @@ productDirectory:
         url: https://docs.microsoft.com/en-us/windows-server/
         text: See more
 
-
 conceptualContent:
-# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new
     items: 
     - title: Windows IoT Academy
       links:
