@@ -36,9 +36,9 @@ highlightedContent:
       itemType: how-to-guide
       url: ./iot-enterprise/2_Minute_Kiosk.md
       
-conceptualContent:
+productDirectory: 
 # itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new
-  items:
+items:
     - title: Windows 10 IoT Enterprise
       links:
         - url: ./iot-enterprise/Getting_Started.md
@@ -114,6 +114,9 @@ conceptualContent:
         url: https://docs.microsoft.com/en-us/windows-server/
         text: See more
 
+
+conceptualContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new
     - title: Windows IoT Academy
       links:
         - url: https://docs.microsoft.com/en-us/windows/iot-core/windows-iot
