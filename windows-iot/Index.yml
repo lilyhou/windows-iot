@@ -24,7 +24,7 @@ highlightedContent:
     - title: What's new in Windows IoT?
       itemType: whats-new
       url: https://docs.microsoft.com/en-us/windows/iot-core/windows-iot
-    - title: Which Windows IoT Solution is For Me?
+    - title: Which Windows IoT Solution is Right For Me?
       itemType: get-started
       url: https://docs.microsoft.com/en-us/windows/iot-core/windows-iot
     - title: Different types of IoT Devices
@@ -114,6 +114,8 @@ conceptualContent:
         url: https://docs.microsoft.com/en-us/windows-server/
         text: See more
 
+conceptualContent:
+  items:
     - title: Windows IoT Academy
       links:
         - url: https://docs.microsoft.com/en-us/windows/iot-core/windows-iot
