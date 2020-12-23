@@ -40,7 +40,7 @@ highlightedContent:
 productDirectory:
   items:
     - title: Windows 10 IoT Enterprise
-      imageSrc: media/index/windows.svg
+      imageSrc: ./media/index/windows.svg
       links:
         - url: ./iot-enterprise/Getting_Started.md
           text: Overview
@@ -49,7 +49,7 @@ productDirectory:
         - url: ./iot-enterprise/Kiosk-Mode/Kiosk-Mode.md
           text: Kiosk Mode
     - title: Windows 10 IoT Core
-      imageSrc: media/index/windows.svg
+      imageSrc: ./media/index/windows.svg
       links:
         - url: https://docs.microsoft.com/en-us/windows/iot-core/windows-iot-core
           text: Overview
@@ -58,7 +58,7 @@ productDirectory:
         - url: https://docs.microsoft.com/en-us/windows/iot-core/connect-your-device/iotdashboard
           text: Dashboard
     - title: Windows 10 IoT Core Services
-      imageSrc: media/index/windows.svg
+      imageSrc: ./media/index/windows.svg
       links:
         - url: https://docs.microsoft.com/en-us/windows-hardware/manufacture/iot/iotcoreservicesoverview
           text: Overview
@@ -67,7 +67,7 @@ productDirectory:
         - url: https://docs.microsoft.com/en-us/windows-hardware/service/iot/using-device-update-center
           text: Device Update Center
     - title: Windows CE Migration
-      imageSrc: media/index/windows.svg
+      imageSrc: ./media/index/windows.svg
       links:
         - url: ./windows_ce/windows-ce-migration-faq.md
           text:  Frequently Asked Questions
@@ -76,7 +76,7 @@ productDirectory:
         - url: ./windows_ce/windows-ce-app-container-getting-started.md
           text:  Getting Started with Windows CE App Container
     - title: Windows Server IoT 2019
-      imageSrc: media/index/windows.svg
+      imageSrc: ./media/index/windows.svg
       links:
         - url: https://docs.microsoft.com/en-us/windows/iot-core/windows-server
           text: Overview
