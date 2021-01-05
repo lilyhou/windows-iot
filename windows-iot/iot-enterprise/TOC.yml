@@ -73,8 +73,6 @@
     href: OS-Features/Security.md
   - name: Updates
     href: OS-Features/Updates.md
-  - name: Windows Analytics
-    href: OS-Features/Windows-Analytics.md
 - name: Tutorials
   expanded: false 
   items: 
