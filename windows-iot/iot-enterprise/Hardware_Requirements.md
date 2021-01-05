@@ -65,7 +65,7 @@ Devices that run Windows 10 for IoT Enterprise must include a GPU that supports 
 Devices that run Windows 10 IoT Enterprise must include at least one network connectivity option, such as Wi-Fi or an Ethernet adapter.
 
 ### Hardware buttons
-The following table lists the required, optional, and not supported hardware buttons for devices that run Windows 10 IoT Enterprise. All other buttons not included in this table, including custom hardware buttons specified by the OEM, are optional. See [Hardware button behavior](https://docs.microsoft.com/en-us/windows-hardware/design/minimum/minimum-hardware-requirements-overview#66-hardware-button-behavior) for additional requirements.
+The following table lists the required, optional, and not supported hardware buttons for devices that run Windows 10 IoT Enterprise. All other buttons not included in this table, including custom hardware buttons specified by the OEM, are optional. See [Hardware button behavior](https://docs.microsoft.com/windows-hardware/design/minimum/minimum-hardware-requirements-overview#66-hardware-button-behavior) for additional requirements.
 
 
 | Device type | Power button | Volume Up/ Volume Down button | Start button | Back/Search button | Camera button | Rotation lock button |
@@ -120,5 +120,5 @@ Some product editions or edition/processor configurations listed below may have 
 ## Additional Resources
 * [Shared minimum hardware requirements for Windows OS](https://docs.microsoft.com/windows-hardware/design/minimum/minimum-hardware-requirements-overview#section-60---shared-minimum-hardware-requirements-for-components)
 * [Minimum hardware requirements](https://docs.microsoft.com/windows-hardware/design/minimum/minimum-hardware-requirements-overview)
-* [Windows Processor Requirements](https://docs.microsoft.com/en-us/windows-hardware/design/minimum/windows-processor-requirements)
-* [Hardware component guidelines](https://docs.microsoft.com/en-us/windows-hardware/design/component-guidelines/components)
+* [Windows Processor Requirements](https://docs.microsoft.com/windows-hardware/design/minimum/windows-processor-requirements)
+* [Hardware component guidelines](https://docs.microsoft.com/windows-hardware/design/component-guidelines/components)
