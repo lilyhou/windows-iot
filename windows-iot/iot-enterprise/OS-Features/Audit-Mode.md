@@ -49,7 +49,7 @@ In audit mode, you can do the following:
 
 * Add more customizations to a reference image. This reduces the number of images that you have to manage. For example, you can create a single reference image that contains the basic customizations that you want to apply to all Windows images. You can then boot the reference image to audit mode and make additional changes that are specific to the computer. These changes can be customer-requested applications or specific device drivers.
 
-## Add a Feature on Demand (FOD) in Audit Mode
+## Add a Feature on Demand (FOD)
 
 Features on Demand (FODs) are Windows feature packages that can be added at any time. Common features include language resources like handwriting recognition or other features like the .NET Framework (.NetFx3).
 
@@ -84,7 +84,7 @@ To add a Feature on Demand in audit mode, you'll need the FOD ISO either on a US
 
 See [Features on Demand](https://docs.microsoft.com/windows-hardware/manufacture/desktop/features-on-demand-v2--capabilities) to learn more about Features on Demand, including how to add them to an offline mounted image.
 
-## Install drivers in Audit Mode
+## Install drivers
 
 Device partners may need to install additional drivers for Windows in order to support the hardware of the IoT device. There are numerous ways to install drivers. Two options below show how to do a simple installation using the driver vendors supplied setup package and an advanced method to add the driver using DISM.
 
@@ -114,7 +114,7 @@ To use this method, the driver supplied by the IHV has to already be extracted o
 
 3. Reboot the device if prompted. When the PC reboots, make sure it reboots into audit mode.
 
-## Add a language in Audit Mode
+## Add a language
 Device partners may need to add additional languages to an image to enable a user to change languages. This is particularly important for devices that may not have a persistent internet connection to download and install a language with the Settings app.
 
 You can add additional languages to your custom image by using DISM to install a language pack and the related Features on Demand. You can add languages in audit mode or to an offline mounted image. See [Languages overview](https://docs.microsoft.com/windows-hardware/manufacture/desktop/add-language-packs-to-windows) for more information.
@@ -136,7 +136,7 @@ You can add additional languages to your custom image by using DISM to install a
     ```
     Where D: is the mounted FOD ISO
 
-## Add a cumulative update in Audit mode
+## Add a cumulative update
 Device partners may need to update the OS image with the latest cumulative update (LCU) as part of the initial image build process. The update can be applied offline using DISM or online using DISM or running the MSU package directly. Two options below show how to do a simple installation using the MSU or an advanced installation using DISM.
 
 To add an update, you first download the most recent LCU from the Microsoft Update Catalog: https://www.catalog.update.microsoft.com/Home.aspx, and then install it. You can install the update through the GUI or the command line.
@@ -168,7 +168,7 @@ From an Administrative Command Prompt:
 Dism /online /add-package /packagepath:C:\Packages\<package.msu>
 ```
 
-## Install OEM software in Audit Mode
+## Install OEM software
 Device partners may need to install software in audit mode. This software might be Line of Business applications, tools, utilities, or any type of software that needs to be on the device prior to shipping. You can use Audit Mode to install software using methods that are available from the Windows desktop, and device partners should use the method that best aligns with their workflow. See
 
 Some things to consider:
