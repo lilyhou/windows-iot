@@ -84,7 +84,7 @@ For detailed TPM information, see [Trusted Platform Module Technology Overview](
 > While TPM requirements are highly encouraged for Windows 10 IoT Enterprise, it is not required. The use of a TPM for Windows 10 IoT Enterprise devices is determined based on the usage and security requirements of each device.
 
 
-## Windows IoT Enterprise / Embedded Processors
+## Processors
 Devices that run Windows 10 IoT Enterprise require a 1 GHz or faster processor or SoC that meets the following requirements:
 * Compatible with the x86* or x64 instruction set.
 * Supports PAE, NX and SSE2.
