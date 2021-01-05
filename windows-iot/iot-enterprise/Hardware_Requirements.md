@@ -22,16 +22,7 @@ The goal of this specification is to enable OEMs, ODMs, SoC vendors, and other c
 
 This specification does not provide compatibility and certification requirements for devices and computers that run Windows 10 or implementation guidance for exceptional user experiences. Microsoft will provide this guidance in other documents at a later date.
 
-### Processor
-Devices that run Windows 10 for desktop editions require a 1 GHz or faster processor or SoC that meets the following requirements:
-* Compatible with the x86* or x64 instruction set.
-* Supports PAE, NX and SSE2.
-* Supports CMPXCHG16b, LAHF/SAHF, and PrefetchW for 64-bit OS installation
-
-> [!NOTE]
-> Beginning with Windows 10, version 2004, all new Windows 10 systems will be required to use 64-bit builds and Microsoft will no longer release 32-bit builds for OEM distribution. This does not impact 32-bit customer systems that are manufactured with earlier versions of Windows 10; Microsoft remains committed to providing feature and security updates on these devices, including continued 32-bit media availability in non-OEM channels to support various upgrade installation scenarios.
-
-### Memory
+## Memory
 Devices that run Windows 10 for desktop editions must meet the RAM requirements shown in the table below.
 
 | OS architecture | RAM requirement |
@@ -39,8 +30,8 @@ Devices that run Windows 10 for desktop editions must meet the RAM requirements 
 | 32-bit | >= 1 GB |
 | 64-bit | >= 2 GB |
 
-### Storage
-#### Storage device size
+## Storage
+### Storage device size
 Devices that run Windows 10 IoT Enterprise must include a storage device that meets the size requirements shown in the table below.
 
 | OS version | OS architecture | Storage capacity |
@@ -48,23 +39,23 @@ Devices that run Windows 10 IoT Enterprise must include a storage device that me
 | Windows 10 IoT Enterprise, version 1903 and prior | 32-bit | 16 GB or greater |
 | Windows 10 IoT Enterprise, version 1903 and prior | 64-bit | 20 GB or greater |
 
-#### Storage controller
+### Storage controller
 Storage controllers used in devices that run Windows 10 for desktop editions must meet the following requirements:
 * Storage controllers must support booting using the Extensible Firmware Interface (EFI) and implement device paths as defined in EDD-3.
 * Storage host controllers and adapters must meet the requirements for the device protocol used and any requirements related to the device storage bus type.
 * Bus-attached controllers must implement the correct class/subclass code as specified in the PCI Codes and Assignments v1.6 specification.
 
-### Display and graphics
-#### Resolution, bit depth, and size
+## Display and graphics
+### Resolution, bit depth, and size
 Display size requirements do not apply to Windows 10 IoT Enterprise.
 
-#### Graphics
+### Graphics
 Devices that run Windows 10 for IoT Enterprise must include a GPU that supports DirectX 9 or later.
 
-#### Networking
+### Networking
 Devices that run Windows 10 IoT Enterprise must include at least one network connectivity option, such as Wi-Fi or an Ethernet adapter.
 
-### Hardware buttons
+## Hardware buttons
 The following table lists the required, optional, and not supported hardware buttons for devices that run Windows 10 IoT Enterprise. All other buttons not included in this table, including custom hardware buttons specified by the OEM, are optional. See [Hardware button behavior](https://docs.microsoft.com/windows-hardware/design/minimum/minimum-hardware-requirements-overview#66-hardware-button-behavior) for additional requirements.
 
 
@@ -77,7 +68,7 @@ The following table lists the required, optional, and not supported hardware but
 >
 > A software-rendered Start button is always available through the OS.
 
-### Trusted Platform Module (TPM)
+## Trusted Platform Module (TPM)
 As of July 28, 2016, all new device models, lines or series must implement and be in compliance with the International Standard ISO/IEC 11889:2015 or the Trusted Computing Group TPM 2.0 Library and a component which implements the TPM 2.0 must be present and enabled by default from this effective date.
 
 The following requirements must be met:
@@ -94,6 +85,14 @@ For detailed TPM information, see [Trusted Platform Module Technology Overview](
 
 
 ## Windows IoT Enterprise / Embedded Processors
+Devices that run Windows 10 IoT Enterprise require a 1 GHz or faster processor or SoC that meets the following requirements:
+* Compatible with the x86* or x64 instruction set.
+* Supports PAE, NX and SSE2.
+* Supports CMPXCHG16b, LAHF/SAHF, and PrefetchW for 64-bit OS installation
+
+> [!NOTE]
+> Beginning with Windows 10, version 2004, all new Windows 10 systems will be required to use 64-bit builds and Microsoft will no longer release 32-bit builds for OEM distribution. This does not impact 32-bit customer systems that are manufactured with earlier versions of Windows 10; Microsoft remains committed to providing feature and security updates on these devices, including continued 32-bit media availability in non-OEM channels to support various upgrade installation scenarios.
+
 The processors listed in the table below, represent the latest processor generations and models which are supported for the listed Windows Edition. Previous generations of processors and models (indicated by "Up through"), remain supported in addition to the listed processors and models.
 
 Some product editions or edition/processor configurations listed below may have no or limited support. Information on support is available at [Microsoft Support Policy](https://support.microsoft.com/lifecycle) and [Microsoft Lifecycle FAQ](https://support.microsoft.com/help/18581). For specific hardware support, please refer to your Original Equipment Manufacturer (OEM) provider.
