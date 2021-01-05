@@ -35,7 +35,7 @@ productDirectory:
       links:
         - url: ./iot-enterprise/Getting_Started.md
           text: Overview
-        - url: https://docs.microsoft.com/en-us/windows/iot-core/windows-iot-enterprise
+        - url: https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/iot-ent-overview
           text: Manufacturing Guide
         - url: ./iot-enterprise/Kiosk-Mode/Kiosk-Mode.md
           text: Kiosk Mode
