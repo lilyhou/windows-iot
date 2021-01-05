@@ -40,7 +40,7 @@ DISM /online /Enable-Feature /FeatureName:Client-EmbeddedBootExp
 ## Configure Unbranded Boot settings at runtime using BCDEdit
 If Windows has already been installed you cannot apply a provisioning package to configure Unbranded Boot; instead you must use BDCEdit to configure Unbranded boot if Windows is installed.
 
-BCDEdit is the primary tool for editing the startup configuration and is on your development computer in the %WINDIR%\System32 folder. You have administrator rights for it. BCDEdit is included in a typical Windows Preinstallation Environment (Windows PE) 4.0. You can download it from the [BCDEdit Commands for Boot Environment](https://docs.microsoft.com/en-us/previous-versions/windows/hardware/design/dn653986(v=vs.85) in the Microsoft Download Center if needed.
+BCDEdit is the primary tool for editing the startup configuration and is on your development computer in the %WINDIR%\System32 folder. You have administrator rights for it. BCDEdit is included in a typical Windows Preinstallation Environment (Windows PE) 4.0. You can download it from the [BCDEdit Commands for Boot Environment](https://docs.microsoft.com/previous-versions/windows/hardware/design/dn653986(v=vs.85) in the Microsoft Download Center if needed.
 
 You can customize Unbranded boot from an Administrative Command prompt in the following ways:
 
@@ -64,6 +64,6 @@ bcdedit.exe -set {globalsettings} bootuxdisabled on
 > Anytime you rebuild the BCD information, for example using bcdboot, you'll have to re-run the above commands.
 
 ## Additional Resources
-* [Configure Unbranded Boot using Unattend](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/unbranded-boot#configure-unbranded-boot-using-unattend)
+* [Configure Unbranded Boot using Unattend](https://docs.microsoft.com/windows-hardware/customize/enterprise/unbranded-boot#configure-unbranded-boot-using-unattend)
 * [Customize the boot screen using Windows Configuration Designer and Deployment Image Servicing and Management (DISM)](https://docs.microsoft.com/windows-hardware/customize/enterprise/unbranded-boot#customize-the-boot-screen-using-windows-configuration-designer-and-deployment-image-servicing-and-management-dism)
 * [Replace the startup logo](https://docs.microsoft.com/windows-hardware/customize/enterprise/unbranded-boot#replace-the-startup-logo)
