@@ -24,7 +24,7 @@ When Windows boots, it starts in either Out-Of-Box Experience (OOBE) mode or in 
 
 You can configure Windows to boot to audit mode instead. In audit mode, you can make additional changes to the Windows installation before you send the computer to a customer or capture the image for reuse in your organization. For example, you can install drivers included in a driver package, install applications, or make other updates that require the Windows installation to be running. When you use an answer file, Windows processes settings in the auditSystem and auditUser configuration passes.
 
-    :::image type="content" source="media/audit-mode.png" alt-text="Audit Mode Flow Diagram":::
+![Audit Mode Flow Diagram](./media/audit-mode.png)
 
 When you boot to audit mode, you log into the system using the built-in administrator account. After you log on to the system, the built-in administrator account is immediately disabled during the auditUser configuration pass. The next time that the computer reboots, the built-in administrator account remains disabled. For more information, see Enable and Disable the Built-in Administrator Account.
 
@@ -58,7 +58,7 @@ Device partners will often include FODs in Windows images. A commonly added feat
 To add a Feature on Demand in audit mode, you'll need the FOD ISO either on a USB drive, or copied to your IoT device. Once you've finished installing FODs, you can remove the ISO from your IoT device or remove the USB drive.
 
 1. Mount the Feature on Demand (FOD) ISO on the Technician PC.
-2. Locate the cab file for the FOD you're going to install. In this example we'll use .NET Framework 3.5. The cab is named `Microsoft-Windows-NetFx3-OnDemand-Package~31bf3856ad364e35~amd64~~.cab`. You can view all the FOD .cab names at [Available Features on Demand](features-on-demand-non-language-fod.md).
+2. Locate the cab file for the FOD you're going to install. In this example we'll use .NET Framework 3.5. The cab is named `Microsoft-Windows-NetFx3-OnDemand-Package~31bf3856ad364e35~amd64~~.cab`. You can view all the FOD .cab names at [Available Features on Demand](https://docs.microsoft.com/windows-hardware/manufacture/desktop/features-on-demand-non-language-fod).
 3. Copy the cab file to the IoT device in a folder called C:\FoD.
 4. Add the FOD. From an Administrative Command Prompt:
 
@@ -100,7 +100,7 @@ Use this method if the driver supplied by the independent hardware vendor (IHV) 
 
 ### Advanced method
 
-To use this method, the driver supplied by the IHV has to already be extracted out into INF, SYS, CAT, etc. files, or be an MSI or EXE package that can be extracted. This method can also be used to [add drivers to an offline mounted image](add-and-remove-drivers-to-an-offline-windows-image.md).
+To use this method, the driver supplied by the IHV has to already be extracted out into INF, SYS, CAT, etc. files, or be an MSI or EXE package that can be extracted. This method can also be used to [add drivers to an offline mounted image](https://docs.microsoft.com/windows-hardware/manufacture/desktop/add-and-remove-drivers-to-an-offline-windows-image).
 
 1. If the driver is distributed as an MSI or EXE, copy the driver package provided by the IHV into a folder on the IoT device (we'll use C:\Drivers in our example). If the driver package is an .msi or .exe, extract the contents into a folder.
 
@@ -158,7 +158,7 @@ After you've downloaded an update, double click the update in File Explorer to s
 
 #### Install an update, advanced method
 
-You can install an LCU using DISM. This can be helpful if you're scripting the installation of the update. You can also use this method to add the update to an offline mounted image. See [Add updates to a Windows image](servicing-the-image-with-windows-updates-sxs.md) for more information.
+You can install an LCU using DISM. This can be helpful if you're scripting the installation of the update. You can also use this method to add the update to an offline mounted image. See [Add updates to a Windows image](https://docs.microsoft.com/windows-hardware/manufacture/desktop/servicing-the-image-with-windows-updates-sxs) for more information.
 
 Use DISM to install the LCU:
 
