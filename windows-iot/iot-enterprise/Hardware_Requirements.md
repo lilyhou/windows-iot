@@ -10,10 +10,10 @@ description: Learn about what Hardware is Required for Windows 10 IoT Enterprise
 keywords: IoT Enterprise, Hardware
 ---
 
-# Hardware Requirements
+# Minimum Hardware Requirements for Windows 10 IoT Enterprise
 This specification defines the minimum hardware requirements for Windows 10 IoT Enterprise and all types of devices or computers designed for Windows 10, version 1703 or later versions. Microsoft will build and test the Windows 10 OS against the requirements described in this specification.
 
-## Minimum Hardware Requirements for Windows 10 IoT Enterprise
+## Overview
 This specification defines the minimum hardware requirements necessary to:
 * Boot and run Windows 10.
 * Update and service Windows 10.
