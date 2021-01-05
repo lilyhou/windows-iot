@@ -65,8 +65,6 @@
     href: OS-Features/On-Screen-Keyboard.md
   - name: Accessibility & Privacy
     href: OS-Features/Accessibility-Privacy.md
-  - name: Cloud Connectivity
-    href: OS-Features/Cloud-Connectivity.md
   - name: Device Drivers
     href: OS-Features/Device-Drivers.md
   - name: OEM Customization
