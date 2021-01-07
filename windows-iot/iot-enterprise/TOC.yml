@@ -5,12 +5,14 @@
 - name: Kiosk Mode
   expanded: false 
   items: 
-  - name: Kiosk Mode Overview
+  - name: Overview
     href: Kiosk-Mode/Kiosk-Mode.md
   - name: Single-App Kiosk
     href: Kiosk-Mode/Single-App-Kiosk.md
   - name: Multi-App Kiosk
     href: Kiosk-Mode/Multi-App-Kiosk.md 
+  - name: Shell Launcher
+    href: Advanced-Lockdown-Features/Shell-Launcher.md
 - name: Advanced Lockdown Features
   expanded: false 
   items: 
@@ -22,8 +24,6 @@
     href: Advanced-Lockdown-Features/Device-Safeguards.md
   - name: Keyboard Filter
     href: Advanced-Lockdown-Features/Keyboard-Filter.md
-  - name: Shell Launcher
-    href: Advanced-Lockdown-Features/Shell-Launcher.md
   - name: Unified Write Filter
     href: Advanced-Lockdown-Features/Unified-Write-Filter.md
   - name: Hibernate Once/Resume Many (HORM)
