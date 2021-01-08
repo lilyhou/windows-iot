@@ -6,7 +6,7 @@ ms.date: 1/8/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
-description: Learn about what Hardware is Required for Windows 10 IoT Enterprise.
+description: Learn about NXP in Windows 10 IoT Enterprise.
 keywords: IoT Enterprise, Hardware, Windows IoT, Get Started, i.MX, NXP
 ---
 
@@ -18,7 +18,7 @@ If you are interested to enable commercial support for your own i/MX hardware, p
 
 If you have NXP hardware/BSP related questions or feedback on how the BSP can better support your targeted solution, please post to the [NXP Community](https://community.nxp.com/community/imx/content?filterID=contentstatus%5Bpublished%5D%7Ecategory%5Bwindows%5D). For any Windows-related questions, please use the [Microsoft Community](https://social.msdn.microsoft.com/forums/home?forum=WindowsIoT).
 
-If you need additional support beyond the community forums for BSP customization and integration for i.MX products, support is available via [Pro-Support](www.nxp.com/prosupport). Inquiries can be sent to [prosupport@nxp.com](mailto:prosupport@nxp.com). For Windows 10 IoT paid services and integration, please contact [epsoinfo@microsoft.com](mailto:epsoinfo@microsoft.com).
+If you need additional support beyond the community forums for BSP customization and integration for i.MX products, support is available via [Pro-Support](https://www.nxp.com/support/support/nxp-engineering-services/professional-support-for-processors-and-microcontrollers:PREMIUM-SUPPORT?&tid=van/prosupport). Inquiries can be sent to [prosupport@nxp.com](mailto:prosupport@nxp.com). For Windows 10 IoT paid services and integration, please contact [epsoinfo@microsoft.com](mailto:epsoinfo@microsoft.com).
 
 ## Ecosystem Resources
 
