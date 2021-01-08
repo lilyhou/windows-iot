@@ -1,7 +1,15 @@
 - name: Getting Started with Windows 10 IoT Enterprise
   href: Getting_Started.md
-- name: Hardware Requirements
-  href: Hardware_Requirements.md
+  
+- name: Hardware Guidance 
+  expanded: false 
+  items: 
+  - name: Requirements
+    href: Hardware-Guidance/Hardware_Requirements.md
+  - name: SoCs and Custom Boards
+    href: Hardware-Guidance/SoCs.md
+  - name: NXP i.MX Socs
+    href: Hardware-Guidance/NXP.md
 - name: Kiosk Mode
   expanded: false 
   items: 
@@ -84,8 +92,6 @@
     href: 2_Minute_Kiosk.md
 - name: Long-term Servicing Channel (LTSC)
   href: LTSC.md
-- name: Licensing
-  href: Licensing.md
 - name: Best Practices
   href: Best_Practices.md
 - name: Frequently Asked Questions
