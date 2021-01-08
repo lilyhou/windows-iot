@@ -1,16 +1,26 @@
 - name: Getting Started with Windows 10 IoT Enterprise
   href: Getting_Started.md
-- name: Hardware Requirements
-  href: Hardware_Requirements.md
+  
+- name: Hardware Guidance 
+  expanded: false 
+  items: 
+  - name: Requirements
+    href: Hardware-Guidance/Hardware_Requirements.md
+  - name: SoCs and Custom Boards
+    href: Hardware-Guidance/SoCs.md
+  - name: NXP i.MX Socs
+    href: Hardware-Guidance/NXP.md
 - name: Kiosk Mode
   expanded: false 
   items: 
-  - name: Kiosk Mode Overview
+  - name: Overview
     href: Kiosk-Mode/Kiosk-Mode.md
   - name: Single-App Kiosk
     href: Kiosk-Mode/Single-App-Kiosk.md
   - name: Multi-App Kiosk
     href: Kiosk-Mode/Multi-App-Kiosk.md 
+  - name: Shell Launcher
+    href: Advanced-Lockdown-Features/Shell-Launcher.md
 - name: Advanced Lockdown Features
   expanded: false 
   items: 
@@ -22,8 +32,6 @@
     href: Advanced-Lockdown-Features/Device-Safeguards.md
   - name: Keyboard Filter
     href: Advanced-Lockdown-Features/Keyboard-Filter.md
-  - name: Shell Launcher
-    href: Advanced-Lockdown-Features/Shell-Launcher.md
   - name: Unified Write Filter
     href: Advanced-Lockdown-Features/Unified-Write-Filter.md
   - name: Hibernate Once/Resume Many (HORM)
@@ -84,8 +92,6 @@
     href: 2_Minute_Kiosk.md
 - name: Long-term Servicing Channel (LTSC)
   href: LTSC.md
-- name: Licensing
-  href: Licensing.md
 - name: Best Practices
   href: Best_Practices.md
 - name: Frequently Asked Questions

@@ -2,12 +2,12 @@
 title: Hardware Requirements
 author: rsameser
 ms.author: riameser
-ms.date: 1/5/2020
+ms.date: 1/8/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
 description: Learn about what Hardware is Required for Windows 10 IoT Enterprise.
-keywords: IoT Enterprise, Hardware
+keywords: IoT Enterprise, Hardware, Windows IoT
 ---
 
 # Minimum Hardware Requirements for Windows 10 IoT Enterprise
@@ -93,28 +93,10 @@ Devices that run Windows 10 IoT Enterprise require a 1 GHz or faster processor o
 > [!NOTE]
 > Beginning with Windows 10, version 2004, all new Windows 10 systems will be required to use 64-bit builds and Microsoft will no longer release 32-bit builds for OEM distribution. This does not impact 32-bit customer systems that are manufactured with earlier versions of Windows 10; Microsoft remains committed to providing feature and security updates on these devices, including continued 32-bit media availability in non-OEM channels to support various upgrade installation scenarios.
 
-The processors listed in the table below, represent the latest processor generations and models which are supported for the listed Windows Edition. Previous generations of processors and models (indicated by "Up through"), remain supported in addition to the listed processors and models.
+Check out [Windows IoT Enterprise Processor Requirements](https://docs.microsoft.com/windows-hardware/design/minimum/windows-processor-requirements#windows-iot-enterprise--embedded-processors) to review the latest processor generations and models which are supported. Previous generations of processors and models (indicated by "Up through"), remain supported in addition to the listed processors and models.
 
 Some product editions or edition/processor configurations listed below may have no or limited support. Information on support is available at [Microsoft Support Policy](https://support.microsoft.com/lifecycle) and [Microsoft Lifecycle FAQ](https://support.microsoft.com/help/18581). For specific hardware support, please refer to your Original Equipment Manufacturer (OEM) provider.
 
-| Windows Edition | Intel Processors | AMD Processors | Qualcomm Processors |
-|---|---|---|---|
-| Windows 10 IoT Enterprise 2015 LTSB 1507 | Up through the following 6th Generation Intel Processors (Intel Core i3/i5/i7-6xxx, Core m3/m5/m7-6xxx, and Xeon E3-xxxx v5), and through series equivalent Intel Atom, Celeron and Pentium Processors | Up through the following AMD 6th Generation Processors (A-Series Ax-8xxx & E-Series Ex-8xxx & FX-870K) | N/A |
-| Windows 10 IoT Enterprise 2016 LTSB 1607 | Up through the following 7th Generation Intel Processors (Intel Core i3/i5/i7/i9-7xxx, Core m3-7xxx), and Intel Xeon E-21xx, and through series equivalent Intel Atom, Celeron, and Pentium Processors, and 8th Generation Intel Embedded Processors | Up through the following AMD 7th Generation Processors (A-Series Ax-9xxx & E-Series Ex-9xxx & FX-9xxx) | N/A |
-| Windows 10 IoT Enterprise CBB 1607 | Up through the following 7th Generation Intel Processors (Intel Core i3/i5/i7/i9-7xxx, Core m3-7xxx), and Intel Xeon E-21xx, and through series equivalent Intel Atom, Celeron and Pentium Processors, and 8th Generation Intel Embedded Processors | Up through the following AMD 7th Generation Processors (A-Series Ax-9xxx & E-Series Ex-9xxx & FX-9xxx) | N/A |
-| Windows 10 IoT Enterprise SAC 1703 | Up through the following 7th Generation Intel Processors (Intel Core i3/i5/i7/i9-7xxx, Core m3-7xxx), and Intel Xeon E-21xx and 8th Generation Processors (Intel Core i7-8xxxU), and through current Intel Atom (J4xxx/J5xxx and N4xxx/N5xxx), Celeron, and Pentium Processors | Up through the following AMD 7th Generation Processors (A-Series Ax-9xxx & E-Series Ex-9xxx & FX-9xxx); and AMD Ryzen 3/5/7 2xxx | N/A |
-| Windows 10 IoT Enterprise SAC 1709 | Up through the following 8th Generation Intel Processors (Intel Core i3/i5/i7/i9-8xxx, and Intel Xeon E-21xx), Intel Atom (J4xxx/J5xxx and N4xxx/N5xxx), Celeron and Pentium Processors | Up through the following AMD 7th Generation Processors (A-Series Ax-9xxx & E-Series Ex-9xxx & FX-9xxx), and AMD Ryzen 3/5/7/Threadripper 2xxx, AMD Opteron and AMD EPYC 7xxx Processors | Qualcomm Snapdragon 835 |
-| Windows 10 IoT Enterprise SAC 1803 | Up through the following 9th Generation Intel Processors (Intel Core i3/i5/i7/i9-9xxx, and Intel Xeon E-21xx), Intel Atom (J4xxx/J5xxx and N4xxx/N5xxx), Celeron and Pentium Processors | Up through the following AMD 7th Generation Processors (A-Series Ax-9xxx & E-Series Ex-9xxx & FX-9xxx), and AMD Ryzen 3/5/7/Threadripper 2xxx, AMD Opteron and AMD EPYC 7xxx Processors | Qualcomm Snapdragon 835 and 850 |
-| Windows 10 IoT Enterprise 2019 LTSC | Up through the following 11th Generation Intel Processors (Intel Core i3/i5/i7-11xxx), and Intel Xeon W-12xx/W-108xx, Intel Xeon SP 32xx, 42xx, 52xx, 62xx, and 82xx, Intel Atom (J4xxx/J5xxx and N4xxx/N5xxx), Celeron and Pentium Processors | Up through the following AMD 7th Generation Processors (A-Series Ax-9xxx & E-Series Ex-9xxx & FX-9xxx), and AMD Ryzen 3/5/7 4xxx, AMD Opteron and AMD EPYC 7xxx Processors | N/A |
-| Windows 10 IoT Enterprise SAC 1809 | Up through the following 10th Generation Intel Processors (Intel Core i3/i5/i7/i9-10xxx), and Xeon W-12xx/W-108xx, Intel Xeon SP 32xx, 42xx, 52xx, 62xx, and 82xx, Intel Atom (J4xxx/J5xxx and N4xxx/N5xxx), Celeron and Pentium Processors | Up through the following AMD 7th Generation Processors (A-Series Ax-9xxx & E-Series Ex-9xxx & FX-9xxx), and AMD Ryzen 3/5/7/Threadripper 2xxx, AMD Opteron and AMD EPYC 7xxx Processors | Qualcomm Snapdragon 850 |
-| Windows 10 IoT Enterprise SAC 1903 | Up through the following 10th Generation Intel Processors (Intel Core i3/i5/i7/i9-10xxx), and Intel Xeon W-12xx/W-108xx, Intel Xeon SP 32xx, 42xx, 52xx, 62xx, and 82xx, Intel Atom (J4xxx/J5xxx and N4xxx/N5xxx), Celeron and Pentium Processors | Up through the following AMD 7th Generation Processors (A-Series Ax-9xxx & E-Series Ex-9xxx & FX-9xxx), and AMD Ryzen 3/5/7/9/Threadripper 3xxx, AMD Opteron and AMD EPYC 7xxx Processors | Qualcomm Snapdragon 850 and 8cx |
-| Windows 10 IoT Enterprise SAC 1909 | Up through the following 10th Generation Intel Processors (Intel Core i3/i5/i7/i9-10xxx), and Xeon W-12xx/W-108xx, Intel Xeon SP 32xx, 42xx, 52xx, 62xx, and 82xx, Intel Atom (J4xxx/J5xxx and N4xxx/N5xxx), Celeron and Pentium Processors | Up through the following AMD 7th Generation Processors (A-Series Ax-9xxx & E-Series Ex-9xxx & FX-9xxx); AMD Athlon 2xx processors, AMD Ryzen 3/5/7/9/Threadripper 3xxx, AMD Opteron[2] and AMD EPYC 7xxx[2] | Qualcomm Snapdragon 850 and 8cx |
-| Windows 10 IoT Enterprise SAC 2004 | Up through the following 10th Generation Intel Processors (Intel Core i3/i5/i7/i9-10xxx), and Intel Xeon W-12xx/W-108xx, Intel Xeon SP 32xx, 42xx, 52xx, 62xx, and 82xx, Intel Atom (J4xxx/J5xxx and N4xxx/N5xxx), Celeron and Pentium Processors | Up through the following AMD 7th Generation Processors (A-Series Ax-9xxx & E-Series Ex-9xxx & FX-9xxx); AMD Athlon 2xx processors, AMD Ryzen 3/5/7/9 4xxx, AMD Opteron[2] and AMD EPYC 7xxx[2] | Qualcomm Snapdragon 850 and 8cx |
-| Windows 10 IoT Enterprise SAC 20H2 | Up through the following 10th Generation Intel Processors (Intel Core i3/i5/i7/i9-10xxx), and Intel Xeon W-12xx/W-108xx, Intel Xeon SP 32xx, 42xx, 52xx, 62xx, and 82xx, Intel Atom (J4xxx/J5xxx and N4xxx/N5xxx), Celeron and Pentium Processors | Up through the following AMD 7th Generation Processors (A-Series Ax-9xxx & E-Series Ex-9xxx & FX-9xxx); AMD Athlon 2xx processors, AMD Ryzen 3/5/7/9 4xxx, AMD Opteron[2] and AMD EPYC 7xxx[2] | Qualcomm Snapdragon 850 and 8cx |
-
-> [!NOTE]
->
->  Up to 2 Intel Xeon or AMD Opteron processors are supported on Windows 10 IoT Enterprise. For complete list of processors supported on Windows IoT Enterprise, please contact the processor manufacturer or OEM
 
 ## Additional Resources
 * [Shared minimum hardware requirements for Windows OS](https://docs.microsoft.com/windows-hardware/design/minimum/minimum-hardware-requirements-overview#section-60---shared-minimum-hardware-requirements-for-components)
