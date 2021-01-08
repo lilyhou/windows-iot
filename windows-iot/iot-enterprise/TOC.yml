@@ -96,6 +96,8 @@
   href: Best_Practices.md
 - name: Frequently Asked Questions
   href: FAQ.md
+- name: Azure IoT Edge for Linux on Windows (EFLOW) 
+  href: https://docs.microsoft.com/en-us/azure/iot-edge/quickstart?view=iotedge-2018-06
 - name: Release Notes
   href: Release_Notes.md
 - name: Accessibility
