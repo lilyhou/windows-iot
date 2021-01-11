@@ -8,7 +8,7 @@
     items:
     - name: Windows IoT
       tocHref: /windows/window-iot/
-      topicHref: /windows/windows-iot/index/
+      topicHref: /windows/windows-iot/
       items:
       - name: Windows IoT Enterprise
         tocHref: /windows/window-iot/iot-enterprise/
