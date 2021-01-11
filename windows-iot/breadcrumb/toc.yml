@@ -4,19 +4,19 @@
   items:
   - name: Windows
     tocHref: /windows/
-    topicHref: "https://docs.microsoft.com/windows"
+    topicHref: /windows/
     items:
     - name: Windows IoT
-      tocHref: /windows/window-iot/
-      topicHref: /windows/windows-iot/
+      tocHref: /windows/iot/
+      topicHref: /windows/iot/
       items:
       - name: Windows IoT Enterprise
-        tocHref: /windows/window-iot/iot-enterprise/
-        topicHref: /windows/window-iot/iot-enterprise/
+        tocHref: /windows/iot/iot-enterprise/
+        topicHref: /windows/iot/iot-enterprise/
         items: 
         - name: Branding
-          tocHref: /windows/window-iot/iot-enterprise/branding
-          topicHref: /windows/window-iot/iot-enterprise/branding
+          tocHref: /windows/iot/iot-enterprise/branding
+          topicHref: /windows/iot/iot-enterprise/branding
       - name: Windows CE
-        tocHref: /windows/window-iot/windows_ce/
-        topicHref: /windows/window-iot/windows_ce/
+        tocHref: /windows/iot/windows_ce/
+        topicHref: /windows/iot/windows_ce/
