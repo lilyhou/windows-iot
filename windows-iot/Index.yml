@@ -58,7 +58,7 @@ productDirectory:
         - url: https://docs.microsoft.com/en-us/windows-hardware/service/iot/using-device-update-center
           text: Device Update Center
     - title: Windows CE Migration
-      imageSrc: ./media/index/CE.png
+      imageSrc: ./media/index/windows.png
       links:
         - url: ./windows_ce/windows-ce-migration-faq.md
           text:  Frequently Asked Questions
