@@ -11,7 +11,7 @@
       topicHref: /windows/iot/
       items:
       - name: Windows IoT Enterprise
-        tocHref: /windows/iot/iot-enterprise/getting_started
+        tocHref: /windows/iot/iot-enterprise/
         topicHref: /windows/iot/iot-enterprise/getting_started
         items: 
         - name: Branding
