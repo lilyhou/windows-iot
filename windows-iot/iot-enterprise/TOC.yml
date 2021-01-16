@@ -1,6 +1,5 @@
 - name: Getting Started with Windows 10 IoT Enterprise
   href: Getting_Started.md
-  
 - name: Hardware Guidance 
   expanded: false 
   items: 
@@ -8,8 +7,6 @@
     href: Hardware-Guidance/Hardware_Requirements.md
   - name: SoCs and Custom Boards
     href: Hardware-Guidance/SoCs.md
-  - name: NXP i.MX SoCs
-    href: Hardware-Guidance/NXP.md
 - name: Kiosk Mode
   expanded: false 
   items: 
@@ -75,19 +72,22 @@
     href: OS-Features/Accessibility-Privacy.md
   - name: Device Drivers
     href: OS-Features/Device-Drivers.md
-  - name: Audit Mode
-    href: OS-Features/Audit-Mode.md
   - name: Security
     href: OS-Features/Security.md
   - name: Updates
     href: OS-Features/Updates.md
   - name: Zero Exhuast
     href: OS-Features/Zero-Exhaust.md
+- name: Commercialization
+  expanded: false
+  items: 
+  - name: Audit Mode
+    href: OS-Features/Audit-Mode.md
+  - name: Windows 10 IoT Enterprise Manufacturing Guide 
+    href: https://docs.microsoft.com/windows-hardware/manufacture/desktop/iot-ent-overview
 - name: Tutorials
   expanded: false 
   items: 
-  - name: Windows 10 IoT Enterprise Manufacturing Guide 
-    href: https://docs.microsoft.com/windows-hardware/manufacture/desktop/iot-ent-overview
   - name: Deployment Framework
     href: https://github.com/ms-iot/windows-iotent-deploy
   - name: 2 Minute Kiosk 
