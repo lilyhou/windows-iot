@@ -31,7 +31,7 @@ highlightedContent:
 productDirectory:
   items:
     - title: Windows 10 IoT Enterprise
-      imageSrc: ./media/index/ENTE.png
+      imageSrc: ./media/index/windows.png
       links:
         - url: ./iot-enterprise/Getting_Started.md
           text: Overview
@@ -40,7 +40,7 @@ productDirectory:
         - url: ./iot-enterprise/Kiosk-Mode/Kiosk-Mode.md
           text: Kiosk Mode
     - title: Windows 10 IoT Core
-      imageSrc: ./media/index/ENT.png
+      imageSrc: ./media/index/windows.png
       links:
         - url: https://docs.microsoft.com/en-us/windows/iot-core/windows-iot-core
           text: Overview

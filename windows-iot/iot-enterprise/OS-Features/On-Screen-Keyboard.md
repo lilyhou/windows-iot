@@ -2,7 +2,7 @@
 title: On-screen Keyboard
 author: rsameser
 ms.author: riameser
-ms.date: 11/13/2020
+ms.date: 1/19/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -15,12 +15,45 @@ Windows 10 IoT Enterprise, provides developers with many on-screen keyboard feat
 ## Key features
 The keyboard implementation provides the following benefits to your headed device development:
 
+* [Enable On-Screen Keyboard](#enable-on-screen-keyboard)
 * [The entire set of Windows keyboard language layouts](#windows-keyboard-language-layouts)
 * [Support for input scopes (e.g., Email Address, Numeric PIN, Search Field, etc.)](#support-for-input-scopes)
 * [Input Method Editor (IME)](#input-method-editor-ime)
 * [Non-obscured text input fields](#non-obscured-text-input-fields)
 * [Dictation mode](#dictation-mode)
 * [A selection of user interface preferences](#user-interface-configuration)
+
+
+## Enable On-Screen Keyboard
+Windows has a built-in Ease of Access tool called the On-Screen Keyboard that can be used instead of a physical keyboard. You don’t need a touchscreen to use the On-Screen Keyboard. It displays a visual keyboard with all the standard keys, so you can use your mouse or another pointing device to select keys, or use a physical single key or group of keys to cycle through the keys on the screen.
+
+### To open the On-Screen Keyboard
+Go to **Start** > then select **Settings** > **Ease of Access** > **Keyboard**, and turn on the toggle under Use the **On-Screen Keyboard**. A keyboard that can be used to move around the screen and enter text will appear on the screen. The keyboard will remain on the screen until you close it.
+
+> [!NOTE]
+To open the On-Screen Keyboard from the sign-in screen, select the **Ease of Access** button in the lower-right corner of the sign-in screen, and then select **On-Screen Keyboard**.
+
+### To change how info is entered into the On-Screen Keyboard
+With the On-Screen Keyboard open, select the **Options** key, and choose the options you want:
+
+* **Use click sound.** Use this option if you want to hear a sound when you press a key.
+
+* **Show keys to make it easier to move around the screen.** Use this option if you want the keys to light up as you type.
+
+* **Turn on numeric keypad.** Use this option to expand the On-Screen Keyboard to show a numeric keypad.
+
+* **Click on keys.** Use this mode if you prefer to click or tap the on-screen keys to enter text.
+
+* **Hover over keys.** Use this mode if you use a mouse or joystick to point to a key. The characters you point to are entered automatically when you point to them for a specified time.
+
+* **Scan through keys.** Use this mode if you want the On-Screen Keyboard to continually scan the keyboard. Scan mode highlights areas where you can type keyboard characters by pressing a keyboard shortcut, using a switch input device, or using a device that simulates a mouse click.
+
+* **Use Text Prediction.** Use this option if you want the On-Screen Keyboard to suggest words for you as you type so you don't need to type each complete word.
+
+> [!NOTE]
+> * Text Prediction is available in English, French, Italian, German, and Spanish. If you want to use one of these languages and it isn't installed, install the language files for that language.
+> * If you're using either hovering mode or scanning mode and accidently minimize the On-Screen Keyboard, you can restore it by pointing to it in the taskbar (for hovering mode) or by pressing the scan key (for scanning mode).
+> * If you minimize the On-Screen Keyboard and switch to tablet mode, use the Task view button to get back to the On-Screen Keyboard.
 
 ## Feature packages
 
@@ -34,10 +67,7 @@ For commercialization, the following optional feature packages will add the on-s
 
 ## Windows keyboard language layouts
 
-With this release, the supported language layouts have expanded to include the full set of those
-available in the desktop Windows edition. To allow your users to select between different language layouts,
-you would typically include selection UI in your application's Settings area. The following API is provided
-to enable your application to set the language that the on-screen keyboard will use:
+With this release, the supported language layouts have expanded to include the full set of those available in the desktop Windows edition. To allow your users to select between different language layouts, you would typically include selection UI in your application's Settings area. The following API is provided to enable your application to set the language that the on-screen keyboard will use:
 
 [Windows.Globalization.Language.TrySetInputMethodLanguageTag](/uwp/api/windows.globalization.language.trysetinputmethodlanguagetag)
 
@@ -70,9 +100,7 @@ To show the dictation button in the keyboard, refer to the following section on
 ## User Interface configuration
 
 The on-screen keyboard provides several configurable options for its user interface. These are configured via the registry.
-During development, you can use [PowerShell](/windows/iot-core/connect-your-device/powershell) or
-[Secure Shell (SSH)](/windows/iot-core/connect-your-device/ssh). For creating an OEM image, the preferred mechanism for
-setting registry values is the `OEMInput.xml` file discussed here:
+During development, you can use [PowerShell](/windows/iot-core/connect-your-device/powershell) or [Secure Shell (SSH)](/windows/iot-core/connect-your-device/ssh). For creating an OEM image, the preferred mechanism for setting registry values is the `OEMInput.xml` file discussed here:
 
 [Runtime customizations](/windows-hardware/manufacture/iot/oscustomizations#runtime-customizations)
 
@@ -84,10 +112,7 @@ setting registry values is the `OEMInput.xml` file discussed here:
 
 ### Keyboard Height
 
-By default, the touch keyboard will use the lower 45% of the screen's height. This may appear too large or small on your
-device, depending on its size and resolution. You can adjust the height up to a maximum of two-thirds the height
-of the screen. Any value not in range will be clamped into range. Because this is specified as a floating point value,
-it allows for pixel-level precision. Simply apply the following formula to calculate the percentage:
+By default, the touch keyboard will use the lower 45% of the screen's height. This may appear too large or small on your device, depending on its size and resolution. You can adjust the height up to a maximum of two-thirds the height of the screen. Any value not in range will be clamped into range. Because this is specified as a floating point value, it allows for pixel-level precision. Simply apply the following formula to calculate the percentage:
 
 `percentage = (100 * <desired_pixel_height>) / <screen_height>`
 
@@ -146,3 +171,7 @@ Set-ItemProperty . -Name KeyboardModeEnabled_narrow -Value "0"
 Set-ItemProperty . -Name KeyboardModeEnabled_wide -Value "1"      # Optional, since the default is "1"
 Set-ItemProperty . -Name SettingsMenuKey_Collapsed -Value "1"
 ```
+
+## Additional Resources
+* [Use the On-Screen Keyboard to type](https://support.microsoft.com/windows/use-the-on-screen-keyboard-osk-to-type-ecbb5e08-5b4e-d8c8-f794-81dbf896267a)
+* [On-screen keyboard for headed devices](https://docs.microsoft.com/windows/iot-core/develop-your-app/onscreenkeyboard)
