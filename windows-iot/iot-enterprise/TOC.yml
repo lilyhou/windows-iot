@@ -18,6 +18,8 @@
     href: Kiosk-Mode/Multi-App-Kiosk.md 
   - name: Shell Launcher
     href: Advanced-Lockdown-Features/Shell-Launcher.md
+  - name: Assigned Access
+    href: Advanced-Lockdown-Features/Assigned-Access.md
 - name: Advanced Lockdown Features
   expanded: false 
   items: 
@@ -83,7 +85,7 @@
   items: 
   - name: Audit Mode
     href: OS-Features/Audit-Mode.md
-  - name: Windows 10 IoT Enterprise Manufacturing Guide 
+  - name: Manufacturing Guide 
     href: https://docs.microsoft.com/windows-hardware/manufacture/desktop/iot-ent-overview
 - name: Tutorials
   expanded: false 
