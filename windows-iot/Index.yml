@@ -91,7 +91,7 @@ conceptualContent:
           text:  2 Minute Kiosk
     - title: Get Started
       links:
-        - url: ./iot-enterprise/Licensing.md
+        - url: ./iot-enterprise/Commercialization/Licensing.md
           itemType: overview
           text:  OEMs & Licensing
         - url: https://docs.microsoft.com/en-us/windows-hardware/design/minimum/minimum-hardware-requirements-overview
