@@ -1,15 +1,15 @@
 ---
-title: OEMS & Licensing
+title: Licensing
 author: rsameser
 ms.author: riameser
 ms.date: 1/21/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
-description: Read about licensing for Windows 10 IoT Enterprise.
+description: Learn about licensing for Windows 10 IoT Enterprise.
 keywords: IoT Enterprise, OEM, Licensing, LTSC, SAC
 ---
-# Licensing
+# Licensing 
 In order to start your journey with Windows 10 IoT Enterprise, you'll need to get a license. You can retrieve a license by contacting a [Windows IoT Distributor](https://aka.ms/IoTDistributorList) or leverage the [Windows 10 IoT Enterprise 90 day Evaluation](https://www.microsoft.com/evalcenter/evaluate-windows-10-enterprise).
 
 > [!TIP]
@@ -20,12 +20,12 @@ In order to start your journey with Windows 10 IoT Enterprise, you'll need to ge
 ## Semi-Annual Channel (SAC)
 In the Semi-Annual servicing channel, feature updates are available as soon as Microsoft releases them. This servicing model is ideal for pilot deployments and testing of Windows 10 feature updates and for users such as developers who need to work with the latest features immediately. Once the latest release has gone through pilot deployment and testing, you will be able to choose the timing at which it goes into broad deployment.
 
-Please review [Semi-Annual Servicing Channel](https://docs.microsoft.com/en-us/windows/deployment/update/waas-overview#semi-annual-channel) for more information.
+Please review [Semi-Annual Servicing Channel](https://docs.microsoft.com/windows/deployment/update/waas-overview#semi-annual-channel) for more information.
 
 ## Long-term Servicing Channel (LTSC)
 Specialized systems such as devices that control medical equipment, point-of-sale systems, and ATMs—often require a longer servicing option because of their purpose. These devices typically perform a single important task and don’t need feature updates as frequently as other devices in the organization. It’s more important that these devices be kept as stable and secure as possible than up to date with user interface changes. For these fixed-purpose devices, we recommend the long-term servicing channel.
 
-Please review [Long-term Servicing Channel](https://docs.microsoft.com/en-us/windows/deployment/update/waas-overview#long-term-servicing-channel) for more information.
+Please review [Long-term Servicing Channel](https://docs.microsoft.com/windows/deployment/update/waas-overview#long-term-servicing-channel) for more information.
 
 ### Fixed purpose devices
 Windows is well known as the operating system for laptops and desktops that have been used by consumers and businesses worldwide for decades.  Windows also powers many ATM machines, point-of-sale terminals, industrial automation systems, thin clients, medical devices, digital signage, kiosks, and other fixed purpose devices.  Windows 10 IoT Enterprise allows you to build these fixed purpose devices with specific allowances and restrictions in the license agreement.  
