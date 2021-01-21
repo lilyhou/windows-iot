@@ -13,7 +13,7 @@ keywords: Lockdown, Kiosks, Kiosk Mode
 # Kiosk Mode  
 Windows 10 IoT Enterprise allows you to build fixed purpose devices such as ATM machines, point-of-sale terminals, medical devices, digital signs or kiosks. Kiosk mode helps you create a dedicated and locked down user experience on these fixed purpose devices. Windows 10 offers two different locked-down experiences for public or specialized use: single-app kiosks or multi-app kiosks.
 
-Kiosk configurations are based upon either [assigned access](https://docs.microsoft.com/windows/configuration/guidelines-for-assigned-access-app) or [shell launcher](../Advanced-Lockdown-Features/Shell-Launcher.md). There are several kiosk configuration methods that you can choose from, depending on your answers to the following questions.
+Kiosk configurations are based upon either [assigned access](https://docs.microsoft.com/windows/configuration/guidelines-for-assigned-access-app) or [shell launcher](./Shell-Launcher.md). There are several kiosk configuration methods that you can choose from, depending on your answers to the following questions.
 
 ## Which type of app will your kiosk run?
 Your kiosk can run a Universal Windows Platform (UWP) app or a Windows desktop application. For [digital signage](https://docs.microsoft.com/windows/configuration/setup-digital-signage), simply select a digital sign player as your kiosk app. Check out the [guidelines for kiosk apps](https://docs.microsoft.com/windows/configuration/guidelines-for-assigned-access-app).

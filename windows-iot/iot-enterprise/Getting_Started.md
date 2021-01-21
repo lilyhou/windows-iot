@@ -2,7 +2,7 @@
 title: Getting Started with Windows 10 IoT Enterprise
 author: rsameser
 ms.author: riameser
-ms.date: 1/17/2021
+ms.date: 1/21/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -11,27 +11,32 @@ keywords: IoT Enterprise, binary, fixed purpose devices, LTSC, Silicon
 ---
 
 # Getting Started with Windows 10 IoT Enterprise
-This documentation set will cover the technical breakdown of what's included when you choose to use Windows 10 IoT Enterprise. This article will give you an overview of the product and guide you through how to get started with Windows 10 IoT Enterprise.
+This article will give you an overview of the product and guide you through how to get started with Windows 10 IoT Enterprise.
 
 ## What is Windows 10 IoT Enterprise?
-Windows 10 IoT Enterprise is a full version of Windows 10 that delivers enterprise manageability and security to IoT solutions. Windows 10 IoT Enterprise shares all the benefits of the world-wide Windows ecosystem. It is a binary equivalent to Windows 10 Enterprise, so you can use the same familiar development and management tools as client PCs and laptops. However, when it comes to licensing and distribution, the desktop version and IoT versions differ.
+Windows 10 IoT Enterprise is a full version of Windows 10 that delivers enterprise manageability and security to IoT solutions. Windows 10 IoT Enterprise shares all the benefits of the world-wide Windows ecosystem. It is a binary equivalent to Windows 10 Enterprise, and all development and management tools can be used for Windows 10 IoT Enterprise.  However, when it comes to licensing and distribution, the desktop version and IoT versions differ. Please review [licensing](./Commercialization/Licensing.md) for more details.
 
-With the 1903 release, we have created a new edition for Windows 10 IoT Enterprise. In the future, it can unlock IoT scenarios with a tailored feature set. As of the 1903 & 1909 releases, the sole difference between the Desktop and IoT versions is that reserved storage for updates and temporary files isn’t set aside during installation; this allows for the use of smaller storage devices with an identical feature set. Also, with the new keys, the edition will now show up as Windows 10 IoT Enterprise​.
+## Documentation Overview
+This documentation set will cover the technical breakdown of what's included when you choose to use Windows 10 IoT Enterprise.
 
-Please note that Windows 10 IoT Enterprise offers both [Long-term Servicing Channel (LTSC)](https://docs.microsoft.com/windows/deployment/update/waas-overview#servicing-channels) and [Semi-Annual Channel (SAC)](https://docs.microsoft.com/windows/deployment/update/waas-overview#servicing-channels) options. OEMs can choose the version they require for their devices.
+### Hardware Guidance
+This section highlights how to get started with prototyping from reviewing [requirements](./Hardware-Guidance/Hardware_Requirements.md) to selecting the right [SoC](./Hardware-Guidance/SoCs.md).  
 
-## Fixed purpose devices
+### Kiosk Mode
+This section gives an [overview](./Kiosk-Mode/Kiosk-Mode.md) on kiosk mode. It walks the user through how to set up a [single-app](./Kiosk-Mode/Single-App-Kiosk.md) or [multi-app](./Kiosk-Mode/Multi-App-Kiosk.md) kiosk and provides information on how kiosk mode can be set up through [shell Launcher](./Kiosk-Mode/Shell-Launcher.md) or [assigned Access](./Kiosk-Mode/Assigned-Access.md) features.
 
-> [!TIP]
-> See your licensing agreement for complete guidance on all Windows 10 IoT Enterprise usage scenarios. If you are an end-user customer, your OEM should have provided you with the terms in an agreement. If you are an OEM, you can direct questions to your distributor regarding your specific licensing agreement.  
+### Advanced Lockdown Features
+This section highlights how to create a lock-down environment with Windows IoT Enterprise. Some of the features that are highlighted include: [Application Control](Advanced-Lockdown-Features/Application-Control.md), [Edge Swipe Policy](Advanced-Lockdown-Features/Edge-Swipe-Policy.md), [Device Safeguards](Advanced-Lockdown-Features/Device-Safeguards.md), [Keyboard Filter](Advanced-Lockdown-Features/Keyboard-Filter.md), [Unified Write Filter](Advanced-Lockdown-Features/Unified-Write-Filter.md), [Hibernate Once, Resume Many (HORM)](Advanced-Lockdown-Features/HORM.md).
 
-If you do not have this licensing agreement, ask the OEM you work with for the commercial agreement.
+### Branding Features
+This section reviews how to create a custom user-experience. Some of the features that Windows 10 IoT Enterprise has to offer in this space includes [Custom Logon](Branding-Features/Custom-Logon.md), [Microsoft Store Access](Branding-Features/Microsoft-Store-Access.md), [Secondary Microsoft Edge Tiles](Branding-Features/Edge-Tiles.md), [Page Visibility](Branding-Features/Page-Visibility.md), [Layout Control](Branding-Features/Layout-Control.md), [Unbranded Boot](Branding-Features/Unbranded-Boot.md), and [Update Notification](Branding-Features/Update-Notification.md).
 
-Windows is well known as the operating system for laptops and desktops that have been used by consumers and businesses worldwide for decades.  Windows also powers many ATM machines, point-of-sale terminals, industrial automation systems, thin clients, medical devices, digital signage, kiosks, and other fixed purpose devices.  Windows 10 IoT Enterprise allows you to build these fixed purpose devices with specific allowances and restrictions in the license agreement.  
+### Device Management
+Learn more about the device management solutions
 
-A fixed purpose device differs from a general-purpose device in the following ways:  
-* The device is locked down to a single application or fixed set of applications through the Assigned Access or Shell Launcher features.  
-* The device experience is often immediate when the customer powers-on. This is achieved by configuring the device image to skip the normal Windows out-of-box experiences.
-* Keyboards, USB ports, and device policies can be locked down to constrain the device to be used only in its fixed purpose.  
-* The IoT Device OEM licenses the device to the user with the software attached to the device as a complete product and passes through specific Windows terms in their own IoT OEM agreements.
-* The OEM provides the customer support for their complete product, including the functions performed by the operating system.
+
+### IoT Device Features
+
+### Commercialization
+
+###
