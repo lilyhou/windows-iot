@@ -9,7 +9,7 @@ ms.technology: iot
 description: Learn how to prototype with Windows 10 IoT Enterprise
 keywords: IoT Enterprise, Prototype, Hardware, SoCs, Custom Boards, development devices, boards, SOC, SOM, system on chips, Windows IoT
 ---
-## Start Prototyping
+# Start Prototyping
 This guide will walk you through how to start prototyping Windows 10 IoT Enterprise.
 
 ## Step 1: Select Board
