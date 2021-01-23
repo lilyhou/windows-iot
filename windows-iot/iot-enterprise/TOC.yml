@@ -7,6 +7,8 @@
     href: Hardware-Guidance/Hardware_Requirements.md
   - name: SoCs and Custom Boards
     href: Hardware-Guidance/SoCs.md
+  - name: Start Prototyping
+    href: Hardware-Guidance/Prototype.md
 - name: Kiosk Mode
   expanded: false 
   items: 
