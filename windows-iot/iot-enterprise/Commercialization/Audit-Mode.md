@@ -24,7 +24,7 @@ When Windows boots, it starts in either Out-Of-Box Experience (OOBE) mode or in 
 
 You can configure Windows to boot to audit mode instead. In audit mode, you can make additional changes to the Windows installation before you send the computer to a customer or capture the image for reuse in your organization. For example, you can install drivers included in a driver package, install applications, or make other updates that require the Windows installation to be running. When you use an answer file, Windows processes settings in the auditSystem and auditUser configuration passes.
 
-![Audit Mode Flow Diagram](../windows-iot/media/audit-mode.png)
+![Audit Mode Flow Diagram](../media/audit-mode.png)
 
 When you boot to audit mode, you log into the system using the built-in administrator account. After you log on to the system, the built-in administrator account is immediately disabled during the auditUser configuration pass. The next time that the computer reboots, the built-in administrator account remains disabled. For more information, see Enable and Disable the Built-in Administrator Account.
 
