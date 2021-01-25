@@ -48,4 +48,4 @@ Additional bus tools, sample codes, and building and testing on I2C, SPI, GPIO, 
 
 Please reference [Windows Runtime (WinRT) APIs](https://docs.microsoft.com/uwp/api/?view=winrt-19041&preserve-view=true) and here's how to leverage the APIs from [Win32 applications](https://blogs.windows.com/windowsdeveloper/2017/01/25/calling-windows-10-apis-desktop-application/).   
 
-Review [Windows Bus Providers](https://docs.microsoft.com/en-us/uwp/api/windows.devices.pwm.provider?view=winrt-19041)
+Review [Windows Bus Providers](https://docs.microsoft.com/uwp/api/windows.devices.pwm.provider?view=winrt-19041)
