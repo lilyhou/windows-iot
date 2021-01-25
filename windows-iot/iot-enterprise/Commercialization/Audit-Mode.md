@@ -15,7 +15,7 @@ Most of our solutions are customized by our OEM partners. OEM software plays a b
 
 To assist our OEM customers, we offer [Audit Mode](https://docs.microsoft.com/windows-hardware/manufacture/desktop/audit-mode-overview) which allows administrators to boot directly to the desktop before you get to the Windows Welcome screen, giving them the opportunity to install Windows Updates, drivers, and other software as needed.
 
-Audit mode isn't necessarily the only way to implement these customizations. If the examples below do not fit into your workflow, explore the desktop deployment documentation for other alternatives.
+Audit mode isn't necessarily the only way to implement these customizations. If the examples below do not fit into your workflow, explore the [desktop deployment documentation](https://docs.microsoft.com/windows/deployment/) for other alternatives.
 
 For a fully automated approach to these steps consider using the [Windows 10 IoT Enterprise deployment framework](https://github.com/ms-iot/windows-iotent-deploy).
 

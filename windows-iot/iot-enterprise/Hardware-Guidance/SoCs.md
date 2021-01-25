@@ -31,3 +31,4 @@ Each of the platforms has unique quirks that need attention during implementatio
 
 ## Additional Resources
 * [Windows 10 IoT Enterprise Manufacturing Guide](https://docs.microsoft.com/windows-hardware/manufacture/desktop/iot-ent-overview)
+* [Windows Processor Requirements](https://docs.microsoft.com/windows-hardware/design/minimum/windows-processor-requirements)
