@@ -20,7 +20,7 @@ This specification defines the minimum hardware requirements necessary to:
 
 The goal of this specification is to enable OEMs, ODMs, SoC vendors, and other component vendors to make early design decisions for devices and computers that will run Windows 10 IoT Enterprise.
 
-This specification does not provide compatibility and certification requirements for devices and computers that run Windows 10 IoT Enterprise or implementation guidance for exceptional user experiences. Microsoft will provide this guidance in other documents at a later date.
+This specification does not provide compatibility and certification requirements for devices and computers that run Windows 10 IoT Enterprise or implementation guidance for exceptional user experiences. 
 
 ## Processor
 Devices that run Windows 10 IoT Enterprise require a 1 GHz or faster processor or SoC that meets the following requirements:

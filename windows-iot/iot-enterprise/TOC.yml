@@ -99,7 +99,7 @@
   - name: 2 Minute Kiosk 
     href: 2_Minute_Kiosk.md
 - name: Azure IoT Edge for Linux on Windows (EFLOW) 
-  href: https://docs.microsoft.com/en-us/azure/iot-edge/quickstart?view=iotedge-2018-06
+  href: https://docs.microsoft.com/azure/iot-edge/iot-edge-for-linux-on-windows?view=iotedge-2018-06
 - name: Long-term Servicing Channel (LTSC)
   href: LTSC.md
 - name: Best Practices

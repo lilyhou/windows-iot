@@ -9,13 +9,13 @@ ms.technology: iot
 description: Learn about licensing for Windows 10 IoT Enterprise.
 keywords: IoT Enterprise, OEM, Licensing, LTSC, SAC
 ---
-# Licensing 
+# Licensing
 In order to start your journey with Windows 10 IoT Enterprise, you'll need to get a license. You can retrieve a license by contacting a [Windows IoT Distributor](https://aka.ms/IoTDistributorList) or leverage the [Windows 10 IoT Enterprise 90 day Evaluation](https://www.microsoft.com/evalcenter/evaluate-windows-10-enterprise).
 
 > [!TIP]
 > There are currently **two** release channels for Windows 10:
-> * The Semi-Annual Channel receives feature updates twice per year.
-> * The Long Term Servicing Channel, which is designed to be used only for specialized devices (which typically don't run Office) such as those that control medical equipment or ATM machines, receives new feature releases every two to three years.
+> * The Semi-Annual Channel receives feature updates twice per year and provides support for **18-30 months**.
+> * The Long Term Servicing Channel, which is designed to be used only for specialized devices (which typically don't run Office) such as those that control medical equipment or ATM machines, receives new feature releases every two to three years and provides support for **10 years**.
 
 ## Semi-Annual Channel (SAC)
 In the Semi-Annual servicing channel, feature updates are available as soon as Microsoft releases them. This servicing model is ideal for pilot deployments and testing of Windows 10 feature updates and for users such as developers who need to work with the latest features immediately. Once the latest release has gone through pilot deployment and testing, you will be able to choose the timing at which it goes into broad deployment.
