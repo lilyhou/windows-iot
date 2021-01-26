@@ -2,7 +2,7 @@
 title: Start Prototyping
 author: rsameser
 ms.author: riameser
-ms.date: 1/22/2021
+ms.date: 1/26/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -12,7 +12,9 @@ keywords: IoT Enterprise, Prototype, Hardware, SoCs, Custom Boards, development 
 # Start Prototyping
 This guide will walk you through how to start prototyping Windows 10 IoT Enterprise.
 
-## Step 1: Select Board
+## Step 1: Select hardware
+To begin your prototyping journey, you can choose to use your existing hardware to run Windows 10 IoT Enterprise as long as they meet the [requirements](./Hardware_Requirements.md) or you can select a SoC board.
+
 The following boards have been proven to be a great start point for your Windows 10 IoT Enterprise solution. Feel free to choose a specific version based upon your budgetary constraints and technical requirements.
 
 * [Latte Panda](https://www.lattepanda.com/)
@@ -20,15 +22,19 @@ The following boards have been proven to be a great start point for your Windows
 * [AAEON Up Squared](https://www.aaeon.com/en/p/iot-gateway-maker-boards-up-squared)
 * [Asus Vivo Mini](https://www.asus.com/us/Mini-PCs/VivoMini-Products/)
 
-## Step 2: UWP Application
-All UWP (Universal Windows Platform) applications are designed to run on all Windows 10 API compatible platforms, including Windows 10 IoT Enterprise. UWP is one of many ways to create client applications for Windows. UWP apps use WinRT APIs to provide powerful UI and advanced asynchronous features that are ideal for internet-connected devices.
-You can either choose an existing UWP application to run or create your own. Learn more about the [Universal Windows Platform (UWP)](https://docs.microsoft.com/windows/uwp/get-started/universal-application-platform-guide).
+## Step 2: Evaluate Edition
+To get started, you can leverage the [Windows 10 IoT Enterprise 90 day Evaluation](https://www.microsoft.com/evalcenter/evaluate-windows-10-enterprise). To select which edition of Windows 10 IoT Enterprise you would like to work with, please see the [release notes](../Release_Notes.md).
 
-## Step 3: Evaluate Edition
-To get started, you can leverage the [Windows 10 IoT Enterprise 90 day Evaluation](https://www.microsoft.com/evalcenter/evaluate-windows-10-enterprise).To select which edition of Windows 10 IoT Enterprise you would like to work with, please see the [release notes](../Release_Notes.md).
+## Step 3: Load an Application
+You can choose to port over your existing Windows applications or try out [UWP (Universal Windows Platform)](https://docs.microsoft.com/windows/uwp/get-started/universal-application-platform-guide) applications.
+
+All UWP applications are designed to run on all Windows 10 API compatible platforms, including Windows 10 IoT Enterprise. UWP is one of many ways to create client applications for Windows. UWP apps use WinRT APIs to provide powerful UI and advanced asynchronous features that are ideal for internet-connected devices.
+
+You can either choose an existing UWP application to run or create your own. Feel free to reference our [UWP app samples](https://github.com/microsoft/Windows-universal-samples) in GitHub.
 
 ## Step 4: Licensing & Distribution
 If you are interested in pursuing your prototype, past the 90 day evaluation period, please reach out to a distributor. Microsoft offers more than 500 Windows IoT and Embedded SKUs. Authorized distributors of Windows IoT products can help you pick the right SKU for your hardware and your budget by leveraging their development experiences, and knowledge, to help you build secure and connected Windows IoT solutions. If you would like to work with one of our distributors, please [select a distributor](https://aka.ms/IoTDistributorList) in your region and contact the distributor directly for more details.
 
 ## Additional Resources
 * [Windows 10 IoT Enterprise Manufacturing Guide](https://docs.microsoft.com/windows-hardware/manufacture/desktop/iot-ent-overview)
+* [Windows Processor Requirements](https://docs.microsoft.com/windows-hardware/design/minimum/windows-processor-requirements)

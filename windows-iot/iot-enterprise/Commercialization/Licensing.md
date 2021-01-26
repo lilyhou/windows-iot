@@ -23,9 +23,20 @@ In the Semi-Annual servicing channel, feature updates are available as soon as M
 Please review [Semi-Annual Servicing Channel](https://docs.microsoft.com/windows/deployment/update/waas-overview#semi-annual-channel) for more information.
 
 ## Long-term Servicing Channel (LTSC)
-Specialized systems such as devices that control medical equipment, point-of-sale systems, and ATMs—often require a longer servicing option because of their purpose. These devices typically perform a single important task and don’t need feature updates as frequently as other devices in the organization. It’s more important that these devices be kept as stable and secure as possible than up to date with user interface changes. For these fixed-purpose devices, we recommend the long-term servicing channel.
+Specialized systems, such as PCs that control medical equipment, point-of-sale systems, and ATMs, often require a longer servicing option because of their purpose. These devices typically perform a single important task and don’t need feature updates as frequently as other devices in the organization. For these fixed-purpose devices, we recommend the long-term servicing channel, since it’s more important that these devices be kept as stable and secure as possible than that they be up to date with UI changes. The LTSC servicing model prevents Windows 10 IoT Enterprise LTSC devices from receiving the usual feature updates and provides only quality updates to ensure that device security stays up to date. With this in mind, quality updates are still immediately available to Windows 10 IoT Enterprise LTSC clients, but customers can choose to defer them by using a servicing tool.
 
 Please review [Long-term Servicing Channel](https://docs.microsoft.com/windows/deployment/update/waas-overview#long-term-servicing-channel) for more information.
+
+### LTSC Model
+Microsoft makes available a new Windows 10 IoT Enterprise LTSC release approximately every three years. Each Windows 10 IoT Enterprise LTSC release is its own SKU and contains all the new capabilities and support updates included in the Windows 10 IoT Enterprise features updates since the previous LTSC release. To access these feature updates, a new Windows 10 IoT Enterprise LTSC SKU license must be purchased. For example, to get access to the new security, deployment, and management updates and features released since the launch of Windows 10 IoT Enterprise 2016 LTSC, a license for Windows 10 IoT Enterprise 2019 LTSC must be purchased, and an update applied to the device. Please note that due to the long life of the LTSC releases and the benefit of remaining on a specific release for 10 years, an upgrade fee will be charged for customers moving from one LTSC release to another.
+
+### Windows 10 LTSC Releases
+| LTSC release | Equivalent SAC release | Availability date |
+| --- | --- | --- |
+| [Windows 10 Enterprise 2019 LTSC](https://docs.microsoft.com/windows/whats-new/ltsc/whats-new-windows-10-2019)  | Windows 10, Version 1809 | 11/13/2018 |
+| [Windows 10 Enterprise 2016 LTSC](https://docs.microsoft.com/windows/whats-new/ltsc/whats-new-windows-10-2016)  | Windows 10, Version 1607 | 8/2/2016 |
+| [Windows 10 Enterprise 2015 LTSC](https://docs.microsoft.com/windows/whats-new/ltsc/whats-new-windows-10-2015)  | Windows 10, Version 1507 | 7/29/2015 |
+
 
 ### Fixed purpose devices
 Windows is well known as the operating system for laptops and desktops that have been used by consumers and businesses worldwide for decades.  Windows also powers many ATM machines, point-of-sale terminals, industrial automation systems, thin clients, medical devices, digital signage, kiosks, and other fixed purpose devices.  Windows 10 IoT Enterprise allows you to build these fixed purpose devices with specific allowances and restrictions in the license agreement.  
