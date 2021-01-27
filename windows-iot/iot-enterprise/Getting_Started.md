@@ -37,11 +37,12 @@ Windows 10 IoT Enterprise, is the full version for Windows 10 Enterprise with 3 
 1. Activation Style
 
 1. Policies
+
 | Policy Name | Windows 10 IoT Enterprise | Windows 10 Enterprise |
 |-----|-----|-----|
-| Allow-WindowsSubcription | 0 | 3 |
-| Security-SPP-LowerEventLogType-DeferredState | 1 | default (0) |
-| ServicingStack-License-ReservedStorageAllowed | 0 | default (1) |
+|Allow-WindowsSubcription|0|3|
+|Security-SPP-LowerEventLogType-DeferredState|1|default (0)|
+|ServicingStack-License-ReservedStorageAllowed|0|default (1)|
 
 
 ## Documentation Overview
