@@ -2,7 +2,7 @@
 title: Application Control
 author: rsameser
 ms.author: riameser
-ms.date: 11/10/2020
+ms.date: 1/27/2020
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
