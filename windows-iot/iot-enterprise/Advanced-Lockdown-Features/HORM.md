@@ -13,7 +13,6 @@ keywords: Lockdown, HORM
 # Hibernate Once/Resume Many (HORM)
 A device with HORM enabled can quickly be turned off or shut down, and then restarted into the preconfigured state, even in the event of a sudden power loss.
 
-
 ## Configure HORM
 You can use the Hibernate Once/Resume Many (HORM) feature with Unified Write Filter (UWF) to start your device in a preconfigured state. When HORM is enabled, your system always resumes and restarts from the last saved hibernation file (hiberfil.sys).
 
