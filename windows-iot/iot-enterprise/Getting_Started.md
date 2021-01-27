@@ -32,7 +32,7 @@ There are three big reasons why customers choose to develop with Windows 10 IoT 
 ## Key Differentiators
 Windows 10 IoT Enterprise, is the full version for Windows 10 Enterprise with 3 key differences:
 1. Windows 10 IoT Enterprises offers customers with Long-Term Servicing Channels options  
-  1. [Long-Term Servicing Channel (LTSC)](https://docs.microsoft.com/en-us/windows/whats-new/ltsc/)
+  1. [Long-Term Servicing Channel (LTSC)](https://docs.microsoft.com/windows/whats-new/ltsc/)
   1. [Semi-Annual Channel (SAC)](./Commercialization/Licensing.md)
 1. Activation Style
 
