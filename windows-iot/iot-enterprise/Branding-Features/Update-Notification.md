@@ -37,7 +37,7 @@ To prohibit access to Windows update:
 
 
 ## Additional Resources
-* [Windows Updates in Windows 10 IoT Enterprise](OS-Features/Updates.md)
+* [Windows Updates in Windows 10 IoT Enterprise](../OS-Features/Updates.md)
 * [Manage device restarts after updates](https://docs.microsoft.com/windows/deployment/update/waas-restart)
 * [Manage additional Windows Update settings](https://docs.microsoft.com/windows/deployment/update/waas-wu-settings)
 * [Deploy feature updates during maintenance windows](https://docs.microsoft.com/windows/deployment/update/feature-update-maintenance-window)
