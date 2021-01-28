@@ -2,7 +2,7 @@
 title: Getting Started with Windows 10 IoT Enterprise
 author: rsameser
 ms.author: riameser
-ms.date: 1/26/2021
+ms.date: 1/27/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -29,13 +29,12 @@ There are three big reasons why customers choose to develop with Windows 10 IoT 
 > If you are building any kind of **OEM style appliance**, such as a point-of-sale or retail device, industrial automation equipment, digital signage, medical equipment or any appliance with a screen - Windows 10 IoT Enterprise is the solution for you. See how our [customers](https://www.microsoft.com/WindowsForBusiness/windows-iot) are using Windows 10 IoT Enterprise to accomplish their business goals.
 
 
-## Key Differentiators
+## Key Differences
 Windows 10 IoT Enterprise, is the full version for Windows 10 Enterprise with 3 key differences:
-1. Windows 10 IoT Enterprises offers customers with Long-Term Servicing Channels options  
-  1. [Long-Term Servicing Channel (LTSC)](https://docs.microsoft.com/windows/whats-new/ltsc/)
-  1. [Semi-Annual Channel (SAC)](./Commercialization/Licensing.md)
+1. Windows 10 IoT Enterprises offers customers with Long-Term Servicing Channels options
+  * [Long-Term Servicing Channel (LTSC)](https://docs.microsoft.com/windows/whats-new/ltsc/)
+  * [Semi-Annual Channel (SAC)](./Commercialization/Licensing.md)
 1. Activation Style
-
 1. Policies
 
 | Policy Name | Windows 10 IoT Enterprise | Windows 10 Enterprise |
