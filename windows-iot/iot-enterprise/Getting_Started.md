@@ -129,8 +129,6 @@ Articles include:
 This documentation set provides additional information to support users that will be updated regularly.
 
 Articles include:
-* [Best Practices](./Best_Practices.md)
 * [Frequently Asked Questions](./FAQ.md)
 * [Release Notes](./Release_Notes.md)
-* [Accessibility](./Accessibility.md)
-* [Glossary](./Glossary.md)
+* [Contact Us](./Contact_Us.md)
