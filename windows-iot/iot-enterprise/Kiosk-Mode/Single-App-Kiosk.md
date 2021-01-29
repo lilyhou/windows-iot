@@ -10,7 +10,7 @@ description: Learn about the Single-App Kiosk in Windows 10 IoT Enterprise.
 keywords: Kiosk Mode, Single-App
 ---
 
-# Single-app kiosk
+# Assigned access single-app kiosk
 A single-app kiosk uses the assigned access feature to run a single app above the lock screen. When the kiosk account signs in, the app is launched automatically. The person using the kiosk cannot do anything on the device outside of the kiosk app.
 
 
