@@ -10,15 +10,15 @@ description: Learn about the Multi-App Kiosk in Windows 10 IoT Enterprise.
 keywords: Lockdown, Multi-App, Kiosk
 ---
 
-# Assigned access Multi-App Kiosk
-A multi-app kiosk runs one or more apps from the desktop. People using the kiosk see a customized Start that shows only the tiles for the apps that are allowed. With this approach, you can configure a locked-down experience for different account types. A multi-app kiosk is appropriate for devices that are shared by multiple people. Here's a [guide](https://docs.microsoft.com/windows/configuration/lock-down-windows-10-to-specific-apps) on how to set up a multi-app kiosk.
+# Multi-app kiosk
+An assigned access multi-app kiosk runs one or more apps from the desktop. People using the kiosk see a customized Start that shows only the tiles for the apps that are allowed. With this approach, you can configure a locked-down experience for different account types. A multi-app kiosk is appropriate for devices that are shared by multiple people. Here's a [guide](https://docs.microsoft.com/windows/configuration/lock-down-windows-10-to-specific-apps) on how to set up a multi-app kiosk.
 
-## Benefits of Using a Multi-App Kiosk
+## Benefits of using a multi-app kiosk
 The benefit of a kiosk that runs only one or more specified apps is to provide an easy-to-understand experience for individuals by putting in front of them only the things they need to use, and removing from their view the things they don’t need to access.
 
-A multi-app kiosk is appropriate for devices that are shared by multiple people.
+A multi-app kiosk is appropriate for devices that are shared by multiple people. Each user can authenticate with the device and receive a customized lockdown experience based on the configuration.
 
-## Configuring your Multi-App Kiosk
+## Configuring your multi-app kiosk
 * [Configure a kiosk in Microsoft Intune](https://docs.microsoft.com/windows/configuration/lock-down-windows-10-to-specific-apps#configure-a-kiosk-in-microsoft-intune)
 * [Configure a kiosk using a provisioning package](https://docs.microsoft.com/windows/configuration/lock-down-windows-10-to-specific-apps#configure-a-kiosk-using-a-provisioning-package)
 
