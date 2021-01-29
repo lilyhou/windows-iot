@@ -96,19 +96,11 @@
   items: 
   - name: Deployment Framework
     href: https://github.com/ms-iot/windows-iotent-deploy
-  - name: 2 Minute Kiosk 
-    href: 2_Minute_Kiosk.md
 - name: Azure IoT Edge for Linux on Windows (EFLOW) 
   href: https://docs.microsoft.com/azure/iot-edge/iot-edge-for-linux-on-windows?view=iotedge-2018-06
-- name: Best Practices
-  href: Best_Practices.md
-- name: Frequently Asked Questions
-  href: FAQ.md
 - name: Release Notes
   href: Release_Notes.md
+- name: Frequently Asked Questions
+  href: FAQ.md
 - name: Contact Us
   href: Contact-Us.md
-- name: Accessibility
-  href: Accessibility.md
-- name: Glossary
-  href: Glossary.md
