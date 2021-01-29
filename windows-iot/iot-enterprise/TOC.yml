@@ -20,11 +20,11 @@
     href: Kiosk-Mode/Multi-App-Kiosk.md 
   - name: Shell Launcher
     href: Kiosk-Mode/Shell-Launcher.md
-  - name: Assigned Access
-    href: Kiosk-Mode/Assigned-Access.md
 - name: Advanced Lockdown Features
   expanded: false 
   items: 
+  - name: Assigned Access
+    href: Kiosk-Mode/Assigned-Access.md
   - name: Application Control
     href: Advanced-Lockdown-Features/Application-Control.md
   - name: Edge Swipe Policy
@@ -66,22 +66,22 @@
 - name: IoT Device Features
   expanded: false 
   items:
-  - name: Embedded Mode
-    href: OS-Features/Embedded-Mode.md
+  - name: Zero Exhuast
+    href: OS-Features/Zero-Exhaust.md
   - name: Bus Providers 
     href: OS-Features/Bus-Providers.md
+  - name: Device Drivers
+    href: OS-Features/Device-Drivers.md  
+  - name: Embedded Mode
+    href: OS-Features/Embedded-Mode.md
   - name: On-Screen Keyboard
     href: OS-Features/On-Screen-Keyboard.md
   - name: Accessibility & Privacy
     href: OS-Features/Accessibility-Privacy.md
-  - name: Device Drivers
-    href: OS-Features/Device-Drivers.md
   - name: Security
     href: OS-Features/Security.md
   - name: Updates
     href: OS-Features/Updates.md
-  - name: Zero Exhuast
-    href: OS-Features/Zero-Exhaust.md
 - name: Commercialization
   expanded: false
   items: 

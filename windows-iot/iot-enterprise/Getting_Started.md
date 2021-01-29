@@ -29,21 +29,6 @@ There are three big reasons why customers choose to develop with Windows 10 IoT 
 > If you are building any kind of **OEM style appliance**, such as a point-of-sale or retail device, industrial automation equipment, digital signage, medical equipment or any appliance with a screen - Windows 10 IoT Enterprise is the solution for you. See how our [customers](https://www.microsoft.com/WindowsForBusiness/windows-iot) are using Windows 10 IoT Enterprise to accomplish their business goals.
 
 
-## Key Differences
-Windows 10 IoT Enterprise, is the full version for Windows 10 Enterprise with 3 key differences:
-1. Windows 10 IoT Enterprises offers customers with Long-Term Servicing Channels options
-  * [Long-Term Servicing Channel (LTSC)](https://docs.microsoft.com/windows/whats-new/ltsc/)
-  * [Semi-Annual Channel (SAC)](./Commercialization/Licensing.md)
-1. Activation Style
-1. Policies
-
-| Policy Name | Windows 10 IoT Enterprise | Windows 10 Enterprise |
-|-----|-----|-----|
-|Allow-WindowsSubcription|0|3|
-|Security-SPP-LowerEventLogType-DeferredState|1|default (0)|
-|ServicingStack-License-ReservedStorageAllowed|0|default (1)|
-
-
 ## Documentation Overview
 This documentation set will cover the technical breakdown of what's included when you choose to use Windows 10 IoT Enterprise.
 
@@ -64,33 +49,32 @@ Articles include:
 * [Kiosk Mode Overview](./Kiosk-Mode/Kiosk-Mode.md)
 * [Single-App Kiosk Mode](./Kiosk-Mode/Single-App-Kiosk.md)
 * [Multi-App Kiosk Mode](./Kiosk-Mode/Multi-App-Kiosk.md)
-* [Shell Launcher](./Kiosk-Mode/Shell-Launcher.md)
-* [Assigned Access](./Kiosk-Mode/Assigned-Access.md)
-
+* [Configure Shell Launcher](./Kiosk-Mode/Shell-Launcher.md)
 
 ### Advanced Lockdown Features
 This section highlights how to create a lock-down environment with Windows 10 IoT Enterprise OS features.
 
 Articles include:
+* [Create a Locked Down Environment with Assigned Access](./Kiosk-Mode/Assigned-Access.md)
 * [Application Control](./Advanced-Lockdown-Features/Application-Control.md)
-* [Edge Swipe Policy](./Advanced-Lockdown-Features/Edge-Swipe-Policy.md)
-* [Device Safeguards](./Advanced-Lockdown-Features/Device-Safeguards.md)
-* [Keyboard Filter](./Advanced-Lockdown-Features/Keyboard-Filter.md)
-* [Unified Write Filter](./Advanced-Lockdown-Features/Unified-Write-Filter.md)
-* [Hibernate Once, Resume Many (HORM)](./Advanced-Lockdown-Features/HORM.md)
+* [Manage the Edge Swipe Policy](./Advanced-Lockdown-Features/Edge-Swipe-Policy.md)
+* [Put in Place Device Safeguards](./Advanced-Lockdown-Features/Device-Safeguards.md)
+* [Use a Keyboard Filter](./Advanced-Lockdown-Features/Keyboard-Filter.md)
+* [Explore the Unified Write Filter](./Advanced-Lockdown-Features/Unified-Write-Filter.md)
+* [Enable Hibernate Once, Resume Many (HORM)](./Advanced-Lockdown-Features/HORM.md)
 
 
 ### Branding Features
 This section reviews how to create a custom user-experience that highlights your brand and brings your ideal visual Windows vision to life.
 
 Articles include:
-* [Custom Logon](./Branding-Features/Custom-Logon.md)
-* [Microsoft Store Access](./Branding-Features/Microsoft-Store-Access.md)
-* [Secondary Microsoft Edge Tiles](./Branding-Features/Edge-Tiles.md)
-* [Page Visibility](./Branding-Features/Page-Visibility.md)
-* [Layout Control](./Branding-Features/Layout-Control.md)
-* [Unbranded Boot](./Branding-Features/Unbranded-Boot.md)
-* [Update Notification](./Branding-Features/Update-Notification.md)
+* [Enable Custom Logon](./Branding-Features/Custom-Logon.md)
+* [Manage Microsoft Store Access](./Branding-Features/Microsoft-Store-Access.md)
+* [Use Secondary Microsoft Edge Tiles](./Branding-Features/Edge-Tiles.md)
+* [Control Page Visibility](./Branding-Features/Page-Visibility.md)
+* [Configure Layout Control](./Branding-Features/Layout-Control.md)
+* [Enable Unbranded Boot](./Branding-Features/Unbranded-Boot.md)
+* [Manage Update Notification](./Branding-Features/Update-Notification.md)
 
 
 ### Device Management
@@ -98,30 +82,30 @@ Learn more about the device management solutions you can take advantage of with 
 
 Articles include:
 * [Device Management Overview](./Device-Management/Device-Management-Overview.md)
-* [Mobile Device Management](./Device-Management/Mobile-Device-Management.md)
-* [Application Updates](Device-Management/App-Updates.md)
+* [Explore Mobile Device Management Solutions](./Device-Management/Mobile-Device-Management.md)
+* [Manage Application Updates](Device-Management/App-Updates.md)
 
 
 ### IoT Device Features
 This section gives an overview of many of the built-in functionalities of Windows 10 IoT Enterprise devices.
 
 Articles include:
-* [Security](./OS-Features/Security.md)
-* [Updates](./OS-Features/Updates.md)
-* [Embedded Mode](./OS-Features/Embedded-Mode.md)
-* [Device Drivers](./OS-Features/Device-Drivers.md)
+* [Windows IoT Security](./OS-Features/Security.md)
+* [Manage Windows Updates](./OS-Features/Updates.md)
+* [Enable Embedded Mode](./OS-Features/Embedded-Mode.md)
+* [Configure Device Drivers](./OS-Features/Device-Drivers.md)
 * [Bus Providers](./OS-Features/Bus-Providers.md)
-* [Zero Exhaust](./OS-Features/Zero-Exhaust.md)
-* [On-Screen Keyboard](./OS-Features/On-Screen-Keyboard.md)
-* [Accessibility & Privacy](./OS-Features/Accessibility-Privacy.md)
+* [Enable Zero Exhaust](./OS-Features/Zero-Exhaust.md)
+* [Enable On-Screen Keyboard](./OS-Features/On-Screen-Keyboard.md)
+* [Under Windows IoT Accessibility & Privacy Policies](./OS-Features/Accessibility-Privacy.md)
 
 
 ### Commercialization
 Learn how to commercialize your Windows 10 IoT Enterprise devices.
 
 Articles include:
-* [Audit Mode](./Commercialization/Audit-Mode.md)
-* [Licensing Options (LTSC, SAC)](./Commercialization/Licensing.md)
+* [Audit Mode Overview](./Commercialization/Audit-Mode.md)
+* [Explore Licensing Options (LTSC, SAC)](./Commercialization/Licensing.md)
 * [Windows 10 IoT Enterprise Manufacturing Guide](https://docs.microsoft.com/windows-hardware/manufacture/desktop/iot-ent-overview)
 
 
