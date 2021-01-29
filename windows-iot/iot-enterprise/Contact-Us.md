@@ -2,7 +2,7 @@
 title: Contact Us
 author: rsameser
 ms.author: riameser
-ms.date: 1/27/2021
+ms.date: 1/29/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -22,11 +22,13 @@ If you have questions, concerns or require support for Windows 10 IoT Enterprise
 * [Premier Support Homepage](https://www.microsoft.com/en-us/msservices/premier-support)
 * [Services Hub](https://serviceshub.microsoft.com/support/contactsupport)
 
+## Ecosystem Partner Services Offering (EPSO)
+*If you are a Windows IoT Partner and require further assistance, please contact epsoinfo@microsoft.com.*  
 
 ## MVP Program
-* [Search for MVP Near You](https://mvp.microsoft.com/)
-Consultants and MVPs are available.
+ *Consultants and MVPs are available for assistance.*
+ * [Search for MVP Near You](https://mvp.microsoft.com/)
 
 ## Developer Community
-* [MSDN]()
+* [MSDN](https://social.msdn.microsoft.com/Forums/en-US/home?forum=WindowsIoT)
 * [Stack Overflow](https://stackoverflow.com/questions/tagged/windows-10-iot-enterprise)
