@@ -131,4 +131,4 @@ This documentation set provides additional information to support users that wil
 Articles include:
 * [Frequently Asked Questions](./FAQ.md)
 * [Release Notes](./Release_Notes.md)
-* [Contact Us](./Contact_Us.md)
+* [Contact Us](./Contact-Us.md)
