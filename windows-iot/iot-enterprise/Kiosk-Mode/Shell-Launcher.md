@@ -12,7 +12,7 @@ keywords: Lockdown, Shell Launcher
 # Shell Launcher
 Using [Shell Launcher](https://docs.microsoft.com/windows/configuration/kiosk-shelllauncher), you can configure a kiosk device to run a Windows Desktop or Universal Windows Application as the user interface. The application that you specify replaces the default shell (explorer.exe) that usually runs when a user logs on. This type of single-app kiosk does not run above the lock screen. Methods of controlling access to other desktop applications and system components can be used in addition to using the Shell Launcher such as, [group policy](https://www.microsoft.com/download/details.aspx?id=25250), [AppLocker](https://docs.microsoft.com/windows/iot-enterprise/advanced_lockdown_features#applocker) and [mobile device management](https://docs.microsoft.com/windows/client-management/mdm/)
 
-In Shell Launcher v1, available today, you can only specify a Windows desktop application as the replacement shell. In Shell Launcher v2, which will be available for IoT Enterprise in Spring 2021, you can also specify a UWP app as the replacement shell.
+In Shell Launcher v1, available in Windows 10, you can only specify a Windows desktop application as the replacement shell. In Shell Launcher v2, available in Windows 10, version 1809 and above, you can also specify a UWP app as the replacement shell. To use Shell Launcher v2 in version 1809, you need to install the KB4551853 update.
 
 ## Differences between Shell Launcher v1 and Shell Launcher v2
 Shell Launcher v1 replaces ```explorer.exe```, the default shell, with ```eshell.exe``` which can launch a Windows desktop application.
@@ -38,8 +38,8 @@ Shell Launcher is an optional component and is not turned on by default in Windo
 
 ## Configure Shell Launcher
 There are two ways you can configure Shell Launcher:
-1. In Windows 10, version 1803, you can configure Shell Launcher using the ShellLauncher node of the Assigned Access Configuration Service Provider (CSP). See AssignedAccess CSP for details. Configuring Shell Launcher using this method also automatically enables Shell Launcher on the device, if the device supports it.
-2. Use the Shell Launcher WMI providers directly in a PowerShell script or application.
+1. In Windows 10, version 1803, you can configure Shell Launcher v1 using the ShellLauncher node of the Assigned Access Configuration Service Provider (CSP). See AssignedAccess CSP for details. Configuring Shell Launcher using this method also automatically enables Shell Launcher on the device, if the device supports it. In Windows 10, version 1809 with the KB4551853 update, you can also configure Shell Launcher v2 using the ShellLauncher node of the AssignedAccess CSP.
+2. Use the Shell Launcher v1 WMI providers or Shell Launcher v2 bridge WMI directly in a PowerShell script or application.
 
 You can configure the following options for Shell Launcher:
 * Enable or disable Shell Launcher.
@@ -55,5 +55,4 @@ You can configure the following options for Shell Launcher:
 * [Use Shell Launcher to create a Windows 10 Kiosk](https://docs.microsoft.com/windows/configuration/kiosk-shelllauncher)
 * [Launch different shells for different user accounts](https://docs.microsoft.com/windows-hardware/customize/enterprise/shell-launcher#launch-different-shells-for-different-user-accounts)
 * [Perform an action when the shell exits](https://docs.microsoft.com/windows-hardware/customize/enterprise/shell-launcher#perform-an-action-when-the-shell-exits)
-* [Set your custom shell](https://docs.microsoft.com/windows-hardware/customize/enterprise/shell-launcher#set-your-custom-shell)
 * [Shell Launcher user rights](https://docs.microsoft.com/windows-hardware/customize/enterprise/shell-launcher#shell-launcher-user-rights)
