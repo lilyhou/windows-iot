@@ -78,17 +78,6 @@ productDirectory:
 
 conceptualContent:
   items:
-    - title: Windows IoT Academy
-      links:
-        - url: https://docs.microsoft.com/en-us/windows/iot-core/windows-iot
-          itemType: overview
-          text:  Different Types of IoT Devices
-        - url: http://www.annabooks.com/index.html
-          itemType: how-to-guide
-          text:  Windows for IoT Training and Books
-        - url: https://docs.microsoft.com/en-us/windows/iot-core/windows-iot
-          itemType: how-to-guide
-          text:  2 Minute Kiosk
     - title: Get Started
       links:
         - url: ./iot-enterprise/Commercialization/Licensing.md
