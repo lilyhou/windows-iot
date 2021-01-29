@@ -2,7 +2,7 @@
 title: Device Safeguards
 author: rsameser
 ms.author: riameser
-ms.date: 11/19/2020
+ms.date: 1/29/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -16,6 +16,22 @@ Windows 10 IoT Enterprise gives you the power as the administrator of your devic
 In a Windows 10 device restrictions profile, most configurable settings are deployed at the device level using device groups.
 
 The following guide reviews various policies that can be configured to create a safe and secure device usage experience.
+
+
+## Device Installation Settings - MDM
+If your organization manages devices through mobile device management, we recommend you review the following [device installation policies](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deviceinstallation):
+
+* [Allow Installation Of Matching Device IDs](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deviceinstallation#deviceinstallation-allowinstallationofmatchingdeviceids)
+* [Allow Installation Of Matching Device Instance IDs](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deviceinstallation#deviceinstallation-allowinstallationofmatchingdeviceinstanceids)
+* [Allow Installation Of Matching Device Setup Classes](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deviceinstallation#deviceinstallation-allowinstallationofmatchingdevicesetupclasses)
+* [Prevent Device Metadata From Network](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deviceinstallation#deviceinstallation-preventdevicemetadatafromnetwork)
+* [Prevent Installation Of Devices Not Described By Other Policy Settings](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deviceinstallation#deviceinstallation-preventinstallationofdevicesnotdescribedbyotherpolicysettings)
+* [Prevent Installation Of Matching Device IDs](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deviceinstallation#deviceinstallation-preventinstallationofmatchingdeviceids)
+* [Prevent Installation Of Matching Device Instance IDs](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deviceinstallation#deviceinstallation-preventinstallationofmatchingdeviceinstanceids)
+* [Prevent Installation Of Matching Device Setup Classes](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deviceinstallation#deviceinstallation-preventinstallationofmatchingdevicesetupclasses)
+
+## Device Installation - Group Policy
+If your organization manages devices through group policy, we recommend you follow this [Step-By-Step Guide](https://docs.microsoft.com/previous-versions/dotnet/articles/bb530324(v=msdn.10)) to control device installation.
 
 ## Control removable media using Microsoft Defender for Endpoint
 Microsoft recommends [a layered approach to securing removable media](https://aka.ms/devicecontrolblog), and Microsoft Defender for Endpoint provides multiple monitoring and control features to help prevent threats in unauthorized peripherals from compromising your devices:

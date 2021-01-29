@@ -2,7 +2,7 @@
 title: Keyboard Filter
 author: rsameser
 ms.author: riameser
-ms.date: 1/27/2020
+ms.date: 1/29/2020
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -28,12 +28,11 @@ Keyboard Filter has the following features:
 * Supports x86 and x64 architectures.
 
 ## Turn on Keyboard Filter
-By default, Keyboard Filter is not turned on. You can turn Keyboard Filter on or off for your device by using the following steps.
-1. In the **Search the web and Windows** field, type Programs and Features and either press **Enter** or tap or click **Programs and Features** to open it.
-2. In the **Programs and Features** window, click **Turn Windows features on or off**.
-3. In the Windows Features window, expand the Device Lockdown node, and select or clear the checkbox for Keyboard Filter.
-4. Click **OK**. The **Windows Features** window indicates Windows 10 is searching for required files and displays a progress bar. Once found, the window indicates Windows 10 is applying the changes. When completed, the window indicates the requested changes are completed.
-5. Click **Close** to close the **Windows Features** window.
+There are multiple ways to turn on Keyboard Filter:
+* Turn on Keyboard Filter by using [Control Panel](https://docs.microsoft.com/windows-hardware/customize/enterprise/keyboardfilter#turn-on-keyboard-filter-by-using-control-panel)
+* Configure Keyboard using [Unattend](https://docs.microsoft.com/windows-hardware/customize/enterprise/keyboardfilter#configure-keyboard-using-unattend)
+* Turn on and configure Keyboard Filter using [Windows Configuration Designer](https://docs.microsoft.com/windows-hardware/customize/enterprise/keyboardfilter#turn-on-and-configure-keyboard-filter-using-windows-configuration-designer)
+* Turn on and configure Keyboard Filter by using [DISM](https://docs.microsoft.com/windows-hardware/customize/enterprise/keyboardfilter#turn-on-and-configure-keyboard-filter-by-using-dism)
 
 > [!NOTE]
 > Turning on an off Keyboard Filter requires that you restart your device. Keyboard Filter is automatically enabled after the restart.
