@@ -36,7 +36,7 @@ You can set Custom Logon by following these steps:
 You may want to use or change some of the following features in conjunction with Custom Logon to further customize the user experience.
 
 ### Power button
-We recommend that you remove the power button from the Welcome screen and block the physical power button so that a user cannot turn off the device when using [assigned access](../Kiosk-Mode/Assigned-Access.md) or [shell launcher](../Kiosk-Mode/Shell-Launcher.md).
+We recommend that you remove the power button from the Welcome screen and block the physical power button so that a user cannot turn off the device when using [assigned access](../Kiosk-Mode/Single-App-Kiosk.md) or [shell launcher](../Kiosk-Mode/Shell-Launcher.md).
 
   Go to **Power Options** > **Choose what the power button does**, change the setting to **Do nothing**, and then **Save changes**.
 

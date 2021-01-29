@@ -55,7 +55,6 @@ Articles include:
 This section highlights how to create a lock-down environment with Windows 10 IoT Enterprise OS features.
 
 Articles include:
-* [Create a Locked Down Environment with Assigned Access](./Kiosk-Mode/Assigned-Access.md)
 * [Application Control](./Advanced-Lockdown-Features/Application-Control.md)
 * [Manage the Edge Swipe Policy](./Advanced-Lockdown-Features/Edge-Swipe-Policy.md)
 * [Put in Place Device Safeguards](./Advanced-Lockdown-Features/Device-Safeguards.md)
