@@ -11,16 +11,12 @@ keywords: IoT Enterprise, Security
 ---
 
 # Security
-Windows 10 IoT Enterprise comes with a host of [security offerings](https://docs.microsoft.com/windows/whats-new/ltsc/whats-new-windows-10-2019#security) that you can leverage to best fit your IoT solution.
+Windows 10 IoT Enterprise comes with a host of [security offerings](https://docs.microsoft.com/windows/whats-new/ltsc/whats-new-windows-10-2019#security) that you can leverage to best fit your Windows 10 IoT Enterprise solution.
 
 ## Microsoft Security Response Center
 The world is more connected today than it has ever been. Technology is wound deep into our lives and has become part of our routine. With great advances we have also seen a greater dynamic playing out between threat actors and the defenders. The [Microsoft Security Response Center (MSRC)](https://www.microsoft.com/msrc?rtc=1) is part of the defender community and on the front line of security response evolution. For over twenty years MSRC has been working to improve security for our customers, learning from both successes and failures. Time has only reasserted MSRC's commitment to better protect customers and the broader ecosystem.
 
-MSRC's mission is to protect customers from being harmed by security vulnerabilities in Microsoft's products and services. By building your solution with Windows 10 IoT Enterprise, you have Microsoft Security Response Center's commitment towards security.
-
-### Quick Links
-* [Mission Statement](https://www.microsoft.com/msrc/mission?rtc=1)
-* [Security Update Guide](https://msrc.microsoft.com/update-guide/)
+MSRC's mission is to protect customers from being harmed by security vulnerabilities in Microsoft's products and services. By building your solution with Windows 10 IoT Enterprise, you have Microsoft Security Response Center's commitment towards security. Please review their [Security Update Guide](https://msrc.microsoft.com/update-guide/) to ensure your devices are up-to-date and secured.
 
 ## Comprehensive Security Features
 Windows 10 IoT Enterprise, brings Enterprise security to your IoT devices.

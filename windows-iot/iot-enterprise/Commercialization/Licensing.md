@@ -2,7 +2,7 @@
 title: Licensing
 author: rsameser
 ms.author: riameser
-ms.date: 1/21/2021
+ms.date: 1/29/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -10,7 +10,9 @@ description: Learn about licensing for Windows 10 IoT Enterprise.
 keywords: IoT Enterprise, OEM, Licensing, LTSC, SAC
 ---
 # Licensing
-In order to start your journey with Windows 10 IoT Enterprise, you'll need to get a license. You can retrieve a license by contacting a [Windows IoT Distributor](https://aka.ms/IoTDistributorList) or leverage the [Windows 10 IoT Enterprise 90 day Evaluation](https://www.microsoft.com/evalcenter/evaluate-windows-10-enterprise).
+In order to start your journey with Windows 10 IoT Enterprise, you'll need to get a license.
+
+You can retrieve a license by contacting a [Windows IoT Distributor](https://aka.ms/IoTDistributorList) or leverage the [Windows 10 IoT Enterprise 90 day Evaluation](https://www.microsoft.com/evalcenter/evaluate-windows-10-enterprise).
 
 > [!TIP]
 > There are currently **two** release channels for Windows 10:
