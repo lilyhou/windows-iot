@@ -5,29 +5,27 @@
   items: 
   - name: Requirements
     href: Hardware-Guidance/Hardware_Requirements.md
-  - name: SoCs and Custom Boards
+  - name: SoCs and custom boards
     href: Hardware-Guidance/SoCs.md
-  - name: Start Prototyping
+  - name: Start prototyping
     href: Hardware-Guidance/Prototype.md
-- name: Kiosk Mode
+- name: Kiosk mode
   expanded: false 
   items: 
   - name: Overview
     href: Kiosk-Mode/Kiosk-Mode.md
-  - name: Single-App Kiosk
+  - name: Assigned access Single-App Kiosk
     href: Kiosk-Mode/Single-App-Kiosk.md
-  - name: Multi-App Kiosk
+  - name: Assigned acess Multi-App Kiosk
     href: Kiosk-Mode/Multi-App-Kiosk.md 
   - name: Shell Launcher
     href: Kiosk-Mode/Shell-Launcher.md
 - name: Advanced Lockdown Features
   expanded: false 
   items: 
-  - name: Assigned Access
-    href: Kiosk-Mode/Assigned-Access.md
   - name: Application Control
     href: Advanced-Lockdown-Features/Application-Control.md
-  - name: Edge Swipe Policy
+  - name: Screen Swipe Policy
     href: Advanced-Lockdown-Features/Edge-Swipe-Policy.md
   - name: Device Safeguards
     href: Advanced-Lockdown-Features/Device-Safeguards.md
