@@ -25,6 +25,6 @@ UWF must be enabled before you can enable or disable HORM. UWF must be configure
 
 UWF does not filter hibernation files from being written to disk. If you want to protect the preconfigured state of your device, lock down any functionality that can modify the hibernation file. For example, disable hibernation, hybrid sleep, and fast startup on your device for standard user accounts so that the saved hibernation file is not overwritten when entering a sleep, hibernate, or shutdown state.
 
-To disable hybrid sleep and fast startup on your device, follow [these steps](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/hibernate-once-resume-many-horm-#how-to-disable-hybrid-sleep).
+To disable hybrid sleep and fast startup on your device, follow [these steps](https://docs.microsoft.com/windows-hardware/customize/enterprise/hibernate-once-resume-many-horm-#how-to-disable-hybrid-sleep).
 
 To configure the UWF with HORM, check out this [guide](https://docs.microsoft.com/windows-hardware/customize/enterprise/hibernate-once-resume-many-horm-#configure-horm).
